@@ -4,8 +4,16 @@ import "@/style/_global.scss";
 
 export default function Home() {
   return (
-    <div>
+    <main className="main-grid">
       <GridItem />
-    </div>
+      <GridItem />
+      <GridItem />
+      <GridItem />
+      <GridItem />
+      <GridItem />
+      <GridItem />
+      <GridItem />
+      <GridItem />
+    </main>
   );
 }

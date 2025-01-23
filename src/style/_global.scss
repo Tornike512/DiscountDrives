@@ -15,3 +15,10 @@ body {
   font-weight: 400;
   background-color: rgb(245 245 248);
 }
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  row-gap: 20px;
+}
