@@ -4,7 +4,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "customFont";
+  src: url("/public/fonts/NeueHaasUnica-Black.ttf");
+}
+
 body {
   padding: 50px 100px;
+  font-family: "customFont", sans-serif;
+  font-weight: 400;
   background-color: rgb(245 245 248);
 }
