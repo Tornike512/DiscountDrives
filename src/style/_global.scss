@@ -10,6 +10,9 @@
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 50px 100px;
   font-family: "customFont", sans-serif;
   font-weight: 400;
@@ -17,8 +20,11 @@ body {
 }
 
 .main-grid {
+  max-width: 900px;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   place-items: center;
   row-gap: 20px;
+  column-gap: 20px;
 }
