@@ -1,13 +1,14 @@
 .grid-item {
   background-color: rgb(255, 255, 255);
   width: 200px;
-  height: 235px;
+  height: 300px;
   padding: 7px;
   border: 3px solid black;
   border-radius: 12px;
   color: #b4b4b4;
   transition: transform 0.2s ease;
   box-shadow: -3px 2px 9px #a7a7a7;
+  text-decoration: none;
 
   .car-image-wrapper {
     width: 100%;
@@ -33,7 +34,7 @@
       color: black;
     }
 
-    .price {
+    .car-year {
       margin-bottom: 5px;
     }
 
