@@ -24,7 +24,7 @@ export default function GridItem({
       </figure>
       <div className="car-info-wrapper">
         <p className="car-title">{carModel}</p>
-        {/* <p className="price">{carPrice}$</p> */}
+        <p className="price">{carPrice}$</p>
         <p className="car-year">{carYear}</p>
         <button className="car-link-button">Show Car</button>
       </div>
