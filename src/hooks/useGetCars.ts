@@ -25,6 +25,10 @@ export const useGetCars = () => {
 
   useEffect(() => {
     getCars();
+
+    const intervalId = setInterval(getCars, 30000);
+
+    return () => clearInterval(intervalId);
   }, []);
 
   return { cars };
