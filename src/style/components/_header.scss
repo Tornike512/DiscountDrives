@@ -40,6 +40,7 @@
     margin: 0;
     -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
     padding: 0;
+    opacity: 1;
     text-transform: uppercase;
   }
 
@@ -129,8 +130,8 @@
     background: #fff;
     content: "";
     display: block;
-    height: 102%;
-    left: calc(-50% - 50% * var(--skew));
+    height: 103%;
+    left: calc(-48% - 10% * var(--skew));
     pointer-events: none;
     position: absolute;
     top: -104%;
