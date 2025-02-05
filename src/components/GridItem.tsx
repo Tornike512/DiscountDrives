@@ -12,7 +12,7 @@ export default function GridItem({
   carImage,
 }: ICars) {
   return (
-    <Link target="_blank" href={carLink} className="grid-item">
+    <div className="grid-item">
       <figure className="car-image-wrapper">
         <Image
           unoptimized
@@ -26,8 +26,10 @@ export default function GridItem({
         <p className="car-title">{carModel}</p>
         <p className="price">{carPrice}$</p>
         <p className="car-year">{carYear}</p>
-        <button className="car-link-button">Show Car</button>
+        <Link target="_blank" href={carLink} className="car-link-button">
+          Show Car
+        </Link>
       </div>
-    </Link>
+    </div>
   );
 }

@@ -22,6 +22,7 @@ body {
 .main-grid {
   max-width: 1920px;
   display: grid;
+  margin-bottom: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   place-items: center;
   row-gap: 20px;
