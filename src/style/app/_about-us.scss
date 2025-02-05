@@ -1,0 +1,16 @@
+.about-us-wrapper {
+  max-width: 1920px;
+  width: 100%;
+  padding: 0 75px;
+  text-align: center;
+
+  .about-us-title {
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+
+  .about-us-description {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

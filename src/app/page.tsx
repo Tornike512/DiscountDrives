@@ -3,8 +3,6 @@
 import GridItem from "@/components/GridItem";
 import { ICars, useGetCars } from "@/hooks/useGetCars";
 
-import "@/style/_global.scss";
-
 export default function Home() {
   const { cars } = useGetCars();
 
