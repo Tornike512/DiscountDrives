@@ -1,10 +1,13 @@
 "use client";
 
 import GridItem from "@/components/GridItem";
+import Loader from "./Loader";
 import { ICars, useGetCars } from "@/hooks/useGetCars";
 
 export default function CarsGrid() {
-  const { cars } = useGetCars();
+  const { cars, isLoading } = useGetCars();
+
+  if (isLoading) return <Loader />;
 
   return (
     <section className="main-grid">

@@ -13,6 +13,7 @@ export interface ICars {
 
 export const useGetCars = () => {
   const [cars, setCars] = useState<ICars[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
 
   const getCars = async () => {
     try {
@@ -20,6 +21,8 @@ export const useGetCars = () => {
       setCars(response.data.cars);
     } catch (error) {
       console.log("Error fetching cars", error);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -31,5 +34,5 @@ export const useGetCars = () => {
     return () => clearInterval(intervalId);
   }, []);
 
-  return { cars };
+  return { cars, isLoading };
 };
