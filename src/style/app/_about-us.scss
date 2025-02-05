@@ -1,16 +1,34 @@
+@import "../sass/breakPoints";
+
 .about-us-wrapper {
   max-width: 1920px;
   width: 100%;
   padding: 0 75px;
   text-align: center;
 
+  @include md {
+    padding: 0 30px;
+  }
+
   .about-us-title {
     margin-bottom: 20px;
     font-size: 36px;
+
+    @include md {
+      font-size: 24px;
+    }
+
+    @include sm {
+      font-size: 16px;
+    }
   }
 
   .about-us-description {
     font-size: 18px;
     font-weight: 500;
+
+    @include sm {
+      font-size: 12px;
+    }
   }
 }
