@@ -13,15 +13,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 100px;
+  flex-direction: column;
   font-family: "customFont", sans-serif;
   font-weight: 400;
   background-color: rgb(245 245 248);
 }
 
 .main-grid {
-  max-width: 900px;
-  width: 100%;
+  max-width: 1920px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   place-items: center;
