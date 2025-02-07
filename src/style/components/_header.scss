@@ -28,6 +28,10 @@
     border: 0 solid;
     box-sizing: border-box;
     text-decoration: none;
+
+    @include sm {
+      display: none;
+    }
   }
 
   .about-us {
@@ -159,5 +163,14 @@
 
   .about-us:hover:after {
     --progress: -102%;
+  }
+
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+
+    @include sm {
+      display: block;
+    }
   }
 }
