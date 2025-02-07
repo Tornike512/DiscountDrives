@@ -1,0 +1,21 @@
+.select {
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #dedede;
+  box-shadow: -1px 5px 4px #ececec;
+  appearance: none;
+  background-image: url("../../../public/Images/select-dropdown.png");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px 10px;
+  padding-right: 25px;
+
+  &:focus {
+    outline: none;
+  }
+
+  & option {
+    border-radius: 4px;
+  }
+}

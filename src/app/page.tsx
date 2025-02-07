@@ -1,12 +1,11 @@
 import CarsGrid from "@/components/CarsGrid";
-import { Suspense } from "react";
+import Sort from "@/components/Sort";
 
 export default function Home() {
   return (
     <>
-      <Suspense fallback={<div>Loading</div>}>
-        <CarsGrid />
-      </Suspense>
+      <Sort />
+      <CarsGrid />
     </>
   );
 }
