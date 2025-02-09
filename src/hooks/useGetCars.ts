@@ -17,6 +17,7 @@ export const useGetCars = () => {
 
   const getCars = async () => {
     try {
+      await new Promise((resolve) => setTimeout(resolve, 120000));
       const response = await axios.get("http://localhost:5000");
       setCars(response.data.cars);
     } catch (error) {

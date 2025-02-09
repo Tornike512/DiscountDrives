@@ -17,6 +17,8 @@
   -webkit-mask-composite: destination-in;
   mask-composite: intersect;
   animation: l5 1s infinite;
+  position: absolute;
+  left: 48%;
 }
 @keyframes l5 {
   to {
