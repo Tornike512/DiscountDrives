@@ -9,6 +9,10 @@ export default function CarsGrid() {
 
   if (isLoading) return <Loader />;
 
+  const sortedCars = [...cars].sort((a, b) =>
+    a.carModel.toLowerCase().localeCompare(b.carModel.toLowerCase())
+  );
+
   return (
     <section className="main-grid">
       {cars.map((car: ICars) => {
