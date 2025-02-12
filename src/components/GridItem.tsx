@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ICars } from "@/hooks/useGetCars";
+import defaultImage from "../../public/Images/menu-icon.png";
 
 import "@/style/components/_gridItem.scss";
 
@@ -18,6 +19,7 @@ export default function GridItem({
           unoptimized
           width={100}
           height={100}
+          loading="lazy"
           src={carImage}
           alt="Car Image"
         />
