@@ -1,15 +1,39 @@
-import manufacturers from "@/data/carManufacturers.json";
+"use client";
+
+import { ChangeEvent, useState } from "react";
+import { nanoid } from "nanoid";
+
+import manufacturersData from "@/data/carManufacturers.json";
 
 import "@/style/components/_filterCars.scss";
 
 export default function FilterCars() {
+  const [manufacturers, setManufacturers] = useState<string>("");
+
+  const handleManufacturerOption = (e: ChangeEvent<HTMLSelectElement>) => {
+    setManufacturers(e.target.value);
+  };
+
+  console.log(manufacturers);
+
   return (
     <div className="filter-container">
       <form className="filter-form">
-        <select className="manufacturer-select" name="manufacturer">
-          <option value="default">Manufacturer</option>
-          {manufacturers.map((model) => {
-            return <option value={model}>{model}</option>;
+        <select
+          onChange={handleManufacturerOption}
+          className="manufacturer-select"
+          name="manufacturer"
+          value={manufacturers}
+        >
+          <option value="default" hidden>
+            Manufacturer
+          </option>
+          {manufacturersData.map((model) => {
+            return (
+              <option key={nanoid()} value={model}>
+                {model}
+              </option>
+            );
           })}
         </select>
         <select disabled className="model-select" name="model">
