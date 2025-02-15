@@ -1,3 +1,5 @@
+import manufacturers from "@/data/carManufacturers.json";
+
 import "@/style/components/_filterCars.scss";
 
 export default function FilterCars() {
@@ -6,6 +8,9 @@ export default function FilterCars() {
       <form className="filter-form">
         <select className="manufacturer-select" name="manufacturer">
           <option value="default">Manufacturer</option>
+          {manufacturers.map((model) => {
+            return <option value={model}>{model}</option>;
+          })}
         </select>
         <select disabled className="model-select" name="model">
           <option value="default">Model</option>
