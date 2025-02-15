@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ICars } from "@/hooks/useGetCars";
-import defaultImage from "../../public/Images/menu-icon.png";
+import carRemoved from "../../public/Images/car-removed.png";
 
 import "@/style/components/_gridItem.scss";
 
@@ -13,7 +13,7 @@ export default function GridItem({
   carPrice,
   carImage,
 }: ICars) {
-  const [imgSrc, setImgSrc] = useState(carImage || defaultImage.src);
+  const [imgSrc, setImgSrc] = useState(carImage || carRemoved.src);
 
   return (
     <div className="grid-item">
@@ -25,7 +25,7 @@ export default function GridItem({
           loading="lazy"
           src={imgSrc}
           onError={() => {
-            setImgSrc(defaultImage.src);
+            setImgSrc(carRemoved.src);
           }}
           alt="Car Image"
         />
