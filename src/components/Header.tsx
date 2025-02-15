@@ -7,6 +7,7 @@ import Link from "next/link";
 
 import Logo from "../../public/favicon.ico";
 import menuIcon from "../../public/Images/menu-icon.png";
+import telegramIcon from "../../public/Images/telegram-icon.png";
 
 import "@/style/components/_header.scss";
 
@@ -22,11 +23,21 @@ export default function Header() {
       <Link href="/">
         <Image className="logo" src={Logo} alt="Logo" height={60} width={70} />
       </Link>
-      <button onClick={handleAboutUsClick} className="about-us">
-        <span className="text-container">
-          <span className="text">About us</span>
-        </span>
-      </button>
+      <div className="header-buttons-wrapper">
+        <Link
+          href="https://t.me/CheapCarsBot"
+          target="_blank"
+          className="join-telegram"
+        >
+          <Image src={telegramIcon} alt="Telegram Icon"></Image>
+          Join Telegram
+        </Link>
+        <button onClick={handleAboutUsClick} className="about-us">
+          <span className="text-container">
+            <span className="text">About us</span>
+          </span>
+        </button>
+      </div>
       <Image
         className="menu-icon"
         src={menuIcon}

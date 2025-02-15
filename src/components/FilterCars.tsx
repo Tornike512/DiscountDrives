@@ -1,10 +1,11 @@
 "use client";
 
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
 import { nanoid } from "nanoid";
 
 import manufacturersData from "@/data/carManufacturers.json";
 import modelsData from "@/data/carModels.json";
+import CustomFilter from "./CustomFilter";
 
 import "@/style/components/_filterCars.scss";
 
@@ -20,6 +21,10 @@ export default function FilterCars() {
   const [selectedManufacturer, setSelectedManufacturer] = useState("");
   const [selectModel, setSelectModel] = useState("");
 
+  const handleForm = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+  };
+
   const handleManufacturerOption = (e: ChangeEvent<HTMLSelectElement>) => {
     setSelectedManufacturer(e.target.value);
   };
@@ -28,11 +33,9 @@ export default function FilterCars() {
     setSelectModel(e.target.value);
   };
 
-  console.log(selectModel);
-
   return (
     <div className="filter-container">
-      <form className="filter-form">
+      <form onClick={handleForm} className="filter-form">
         <select
           onChange={handleManufacturerOption}
           className="manufacturer-select"
@@ -69,12 +72,8 @@ export default function FilterCars() {
               )
             )}
         </select>
-        <select className="year-select" name="year">
-          <option value="default">Year</option>
-        </select>
-        <select className="price-select" name="price">
-          <option value="default">Price</option>
-        </select>
+        <CustomFilter filterType="Year" />
+        <CustomFilter filterType="Price" />
       </form>
       <button className="search-car">Search</button>
     </div>

@@ -7,11 +7,11 @@
   border: 1px solid #dedede;
   margin-right: 30px;
   border-radius: 6px;
+  box-shadow: -1px 5px 4px #ececec;
 
   .filter-form {
     .manufacturer-select,
     .model-select,
-    .year-select,
     .price-select {
       width: 100%;
       padding: 12px 10px;
@@ -24,6 +24,11 @@
       background-position: right 10px center;
       background-size: 10px 10px;
       appearance: none;
+      cursor: pointer;
+
+      &:hover {
+        border-color: #bbb;
+      }
     }
   }
 

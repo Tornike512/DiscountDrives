@@ -10,14 +10,17 @@
   background-position: right 10px center;
   background-size: 10px 10px;
   padding-right: 25px;
-  border-radius: 0;
-  -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  cursor: pointer;
 
   &:focus {
     outline: none;
+  }
+
+  &:hover {
+    border-color: #bbb;
   }
 }

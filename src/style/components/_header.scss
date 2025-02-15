@@ -22,150 +22,179 @@
     cursor: pointer;
   }
 
-  .about-us,
-  .about-us *,
-  .about-us :after,
-  .about-us :before,
-  .about-us:after,
-  .about-us:before {
-    border: 0 solid;
-    box-sizing: border-box;
-    text-decoration: none;
+  .header-buttons-wrapper {
+    display: flex;
 
-    @include sm {
+    .join-telegram {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      margin-right: 10px;
+      border-radius: 99rem;
+      background-color: #019fdc;
+      border: none;
+      font-weight: bold;
+      color: #ffffff;
+      transition: background-color 0.2s ease;
+      text-decoration: none;
+      cursor: pointer;
+
+      & img {
+        width: 30px;
+        height: auto;
+        margin-right: 8px;
+      }
+
+      &:hover {
+        background-color: #019fdcc2;
+      }
+    }
+
+    .about-us,
+    .about-us *,
+    .about-us :after,
+    .about-us :before,
+    .about-us:after,
+    .about-us:before {
+      border: 0 solid;
+      box-sizing: border-box;
+      text-decoration: none;
+
+      @include sm {
+        display: none;
+      }
+    }
+
+    .about-us {
+      -webkit-tap-highlight-color: transparent;
+      -webkit-appearance: button;
+      background-color: #000;
+      background-image: none;
+      color: #fff;
+      cursor: pointer;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+        Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+      font-size: 83%;
+      font-weight: 900;
+      line-height: 1.5;
+      margin: 0;
+      -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+      padding: 0;
+      opacity: 1;
+      text-transform: uppercase;
+    }
+
+    .about-us:disabled {
+      cursor: default;
+    }
+
+    .about-us:-moz-focusring {
+      outline: auto;
+    }
+
+    .about-us svg {
+      display: block;
+      vertical-align: middle;
+    }
+
+    .about-us [hidden] {
       display: none;
     }
-  }
 
-  .about-us {
-    -webkit-tap-highlight-color: transparent;
-    -webkit-appearance: button;
-    background-color: #000;
-    background-image: none;
-    color: #fff;
-    cursor: pointer;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-      Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-      Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    font-size: 83%;
-    font-weight: 900;
-    line-height: 1.5;
-    margin: 0;
-    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
-    padding: 0;
-    opacity: 1;
-    text-transform: uppercase;
-  }
-
-  .about-us:disabled {
-    cursor: default;
-  }
-
-  .about-us:-moz-focusring {
-    outline: auto;
-  }
-
-  .about-us svg {
-    display: block;
-    vertical-align: middle;
-  }
-
-  .about-us [hidden] {
-    display: none;
-  }
-
-  .about-us {
-    border-radius: 99rem;
-    border-width: 2px;
-    padding: 0.8rem 1rem;
-    z-index: 0;
-  }
-
-  .about-us,
-  .about-us .text-container {
-    position: relative;
-  }
-
-  .about-us .text-container {
-    display: block;
-    mix-blend-mode: difference;
-  }
-
-  .about-us .text {
-    display: block;
-    position: relative;
-  }
-
-  .about-us:hover .text {
-    -webkit-animation: move-up-alternate 0.3s forwards;
-    animation: move-up-alternate 0.3s forwards;
-  }
-
-  @-webkit-keyframes move-up-alternate {
-    0% {
-      transform: translateY(0);
+    .about-us {
+      border-radius: 99rem;
+      border-width: 2px;
+      padding: 0.8rem 1rem;
+      z-index: 0;
     }
 
-    50% {
-      transform: translateY(80%);
+    .about-us,
+    .about-us .text-container {
+      position: relative;
     }
 
-    51% {
-      transform: translateY(-80%);
+    .about-us .text-container {
+      display: block;
+      mix-blend-mode: difference;
     }
 
-    to {
-      transform: translateY(0);
-    }
-  }
-
-  @keyframes move-up-alternate {
-    0% {
-      transform: translateY(0);
+    .about-us .text {
+      display: block;
+      position: relative;
     }
 
-    50% {
-      transform: translateY(80%);
+    .about-us:hover .text {
+      -webkit-animation: move-up-alternate 0.3s forwards;
+      animation: move-up-alternate 0.3s forwards;
     }
 
-    51% {
-      transform: translateY(-80%);
+    @-webkit-keyframes move-up-alternate {
+      0% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(80%);
+      }
+
+      51% {
+        transform: translateY(-80%);
+      }
+
+      to {
+        transform: translateY(0);
+      }
     }
 
-    to {
-      transform: translateY(0);
+    @keyframes move-up-alternate {
+      0% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(80%);
+      }
+
+      51% {
+        transform: translateY(-80%);
+      }
+
+      to {
+        transform: translateY(0);
+      }
     }
-  }
 
-  .about-us:after,
-  .about-us:before {
-    --skew: 0.2;
-    background: #fff;
-    content: "";
-    display: block;
-    height: 103%;
-    left: calc(-48% - 10% * var(--skew));
-    pointer-events: none;
-    position: absolute;
-    top: -104%;
-    transform: skew(calc(150deg * var(--skew))) translateY(var(--progress, 0));
-    transition: transform 0.2s ease;
-    width: 100%;
-  }
+    .about-us:after,
+    .about-us:before {
+      --skew: 0.2;
+      background: #fff;
+      content: "";
+      display: block;
+      height: 103%;
+      left: calc(-48% - 10% * var(--skew));
+      pointer-events: none;
+      position: absolute;
+      top: -104%;
+      transform: skew(calc(150deg * var(--skew))) translateY(var(--progress, 0));
+      transition: transform 0.2s ease;
+      width: 100%;
+    }
 
-  .about-us:after {
-    --progress: 0%;
-    left: calc(50% + 50% * var(--skew));
-    top: 102%;
-    z-index: -1;
-  }
+    .about-us:after {
+      --progress: 0%;
+      left: calc(50% + 50% * var(--skew));
+      top: 102%;
+      z-index: -1;
+    }
 
-  .about-us:hover:before {
-    --progress: 100%;
-  }
+    .about-us:hover:before {
+      --progress: 100%;
+    }
 
-  .about-us:hover:after {
-    --progress: -102%;
+    .about-us:hover:after {
+      --progress: -102%;
+    }
   }
 
   .menu-icon {
