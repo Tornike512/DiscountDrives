@@ -1,21 +1,23 @@
+import "@/style/components/_filterCars.scss";
+
 export default function FilterCars() {
   return (
     <div className="filter-container">
-      <form>
-        <select name="manufacturer">
+      <form className="filter-form">
+        <select className="manufacturer-select" name="manufacturer">
           <option value="default">Manufacturer</option>
         </select>
-        <select name="model">
+        <select disabled className="model-select" name="model">
           <option value="default">Model</option>
         </select>
-        <select name="year">
+        <select className="year-select" name="year">
           <option value="default">Year</option>
         </select>
-        <select name="price">
+        <select className="price-select" name="price">
           <option value="default">Price</option>
         </select>
       </form>
-      <button>Search</button>
+      <button className="search-car">Search</button>
     </div>
   );
 }
