@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+
 import "@/style/_global.scss";
 
 export default function RootLayout({

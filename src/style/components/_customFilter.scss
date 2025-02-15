@@ -1,3 +1,13 @@
+.custom-filter-modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
 .custom-filter {
   position: relative;
 
@@ -31,7 +41,7 @@
     box-shadow: -1px 5px 4px #dbdbdb;
     background-color: #ffffff;
     position: absolute;
-    z-index: 1;
+    z-index: 4;
     bottom: -150px;
 
     .inputs-wrapper {
