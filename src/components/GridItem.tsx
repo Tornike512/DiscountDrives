@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ICars } from "@/hooks/useGetCars";
@@ -12,6 +13,8 @@ export default function GridItem({
   carPrice,
   carImage,
 }: ICars) {
+  const [imgSrc, setImgSrc] = useState(carImage || defaultImage.src);
+
   return (
     <div className="grid-item">
       <figure className="car-image-wrapper">
@@ -20,7 +23,10 @@ export default function GridItem({
           width={100}
           height={100}
           loading="lazy"
-          src={carImage}
+          src={imgSrc}
+          onError={() => {
+            setImgSrc(defaultImage.src);
+          }}
           alt="Car Image"
         />
       </figure>
