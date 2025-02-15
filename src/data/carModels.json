@@ -1,5 +1,5 @@
 {
-  "Jeep": [
+  "jeep": [
     {
       "model": "Wrangler"
     },
@@ -85,7 +85,7 @@
       "model": "CJ-8"
     }
   ],
-  "Arcfox": [
+  "arcfox": [
     {
       "model": "αT"
     },
@@ -111,7 +111,7 @@
       "model": "Lite"
     }
   ],
-  "Acura": [
+  "acura": [
     {
       "model": "Integra"
     },
@@ -155,7 +155,7 @@
       "model": "Legend"
     }
   ],
-  "Aion": [
+  "aion": [
     {
       "model": "Aion S"
     },
@@ -199,7 +199,7 @@
       "model": "Aion Hyper HT"
     }
   ],
-  "AIQAR": [
+  "aIQAR": [
     {
       "model": "eQ1 pro"
     },
@@ -213,7 +213,7 @@
       "model": "eQ3"
     }
   ],
-  "Alfa Romeo": [
+  "alfa romeo": [
     {
       "model": "Giulia"
     },
@@ -269,7 +269,7 @@
       "model": "Montreal"
     }
   ],
-  "AMC": [
+  "amc": [
     {
       "model": "AMX"
     },
@@ -316,7 +316,7 @@
       "model": "Metropolitan"
     }
   ],
-  "Aston Martin": [
+  "aston martin": [
     {
       "model": "DB11"
     },
@@ -363,7 +363,7 @@
       "model": "DB3S"
     }
   ],
-  "Audi": [
+  "audi": [
     {
       "model": "A1"
     },
@@ -467,7 +467,7 @@
       "model": "e-tron"
     }
   ],
-  "Avatr": [
+  "avatr": [
     {
       "model": "Avatr 11"
     },
@@ -481,7 +481,7 @@
       "model": "Avatr 06"
     }
   ],
-  "BAIC": [
+  "baic": [
     {
       "model": "Beijing X7"
     },
@@ -531,7 +531,7 @@
       "model": "BAIC BJ30"
     }
   ],
-  "Bentley": [
+  "bentley": [
     {
       "model": "Continental GT"
     },
@@ -575,7 +575,7 @@
       "model": "Bentley Continental GT3"
     }
   ],
-  "BMW": [
+  "bmw": [
     {
       "model": "1 Series"
     },
@@ -667,7 +667,7 @@
       "model": "M8 GTE"
     }
   ],
-  "Brilliance": [
+  "brilliance": [
     {
       "model": "BC3"
     },
@@ -945,7 +945,7 @@
       "model": "Jinbei Jinka S64"
     }
   ],
-  "Bugatti": [
+  "bugatti": [
     {
       "model": "Chiron"
     },
@@ -986,7 +986,7 @@
       "model": "Bugatti Type 41 Royale"
     }
   ],
-  "Buick": [
+  "buick": [
     {
       "model": "Encore"
     },
@@ -1027,7 +1027,7 @@
       "model": "Buick GNX"
     }
   ],
-  "BYD": [
+  "byd": [
     {
       "model": "Tang"
     },
@@ -1089,7 +1089,7 @@
       "model": "BYD Seal"
     }
   ],
-  "Cadillac": [
+  "cadillac": [
     {
       "model": "Escalade"
     },
@@ -1136,7 +1136,7 @@
       "model": "Cadillac BLS"
     }
   ],
-  "Changan": [
+  "changan": [
     {
       "model": "Alsvin"
     },
@@ -1201,7 +1201,7 @@
       "model": "Deepal G318"
     }
   ],
-  "Changfeng": [
+  "changfeng": [
     {
       "model": "Leopaard CS10"
     },
@@ -1218,7 +1218,7 @@
       "model": "Leopaard CT7"
     }
   ],
-  "Chery": [
+  "chery": [
     {
       "model": "Arrizo 5"
     },
@@ -1280,7 +1280,7 @@
       "model": "Jaecoo J8"
     }
   ],
-  "Chevrolet": [
+  "chevrolet": [
     {
       "model": "Trax"
     },
@@ -1342,7 +1342,7 @@
       "model": "Bolt EUV"
     }
   ],
-  "Chrysler": [
+  "chrysler": [
     {
       "model": "Pacifica"
     },
@@ -1356,7 +1356,7 @@
       "model": "300"
     }
   ],
-  "Citroen": [
+  "citroen": [
     {
       "model": "2CV"
     },
@@ -1466,7 +1466,7 @@
       "model": "DS9"
     }
   ],
-  "CPI": [
+  "cpi": [
     {
       "model": "HUSSAR 50cc"
     },
@@ -1498,7 +1498,7 @@
       "model": "CUB 125cc"
     }
   ],
-  "Dacia": [
+  "dacia": [
     {
       "model": "Sandero"
     },
@@ -1530,7 +1530,7 @@
       "model": "Jogger"
     }
   ],
-  "Daewoo": [
+  "daewoo": [
     {
       "model": "Lanos"
     },
@@ -1577,7 +1577,7 @@
       "model": "Statesman"
     }
   ],
-  "Daihatsu": [
+  "daihatsu": [
     {
       "model": "Mira"
     },
@@ -1807,7 +1807,7 @@
       "model": "Mira TR-XX Avanzato R4 Limited XLV"
     }
   ],
-  "Datsun": [
+  "datsun": [
     {
       "model": "Datsun 11 Phaeton"
     },
@@ -2067,7 +2067,7 @@
       "model": "Datsun 370Z"
     }
   ],
-  "Dayun": [
+  "dayun": [
     {
       "model": "Rehigh Y6"
     },
@@ -2081,7 +2081,7 @@
       "model": "Yuanzhi M1"
     }
   ],
-  "DM Telai": [
+  "dm telai": [
     {
       "model": "Junior 2019 Midi Frame"
     },
@@ -2107,7 +2107,7 @@
       "model": "Midi GP Racer Adjustable Suspension"
     }
   ],
-  "Dodge": [
+  "dodge": [
     {
       "model": "Charger"
     },
@@ -2124,7 +2124,7 @@
       "model": "Charger Daytona"
     }
   ],
-  "Dongfeng": [
+  "dongfeng": [
     {
       "model": "Aeolus Yixuan"
     },
@@ -2372,7 +2372,7 @@
       "model": "Forthing T5 EVO Trend Reform Plan"
     }
   ],
-  "DS Automobiles": [
+  "ds automobiles": [
     {
       "model": "DS 3"
     },
@@ -2389,7 +2389,7 @@
       "model": "DS N°8"
     }
   ],
-  "Exeed": [
+  "exeed": [
     {
       "model": "VX"
     },
@@ -2409,7 +2409,7 @@
       "model": "Sterra ET"
     }
   ],
-  "FAW": [
+  "faw": [
     {
       "model": "Hongqi L5"
     },
@@ -2450,7 +2450,7 @@
       "model": "Bestune T33"
     }
   ],
-  "Ferrari": [
+  "ferrari": [
     {
       "model": "SF90 Stradale"
     },
@@ -2497,7 +2497,7 @@
       "model": "Daytona SP3"
     }
   ],
-  "Fiat": [
+  "fiat": [
     {
       "model": "500"
     },
@@ -2523,7 +2523,7 @@
       "model": "Ducato"
     }
   ],
-  "Fisker": [
+  "fisker": [
     {
       "model": "Ocean"
     },
@@ -2537,7 +2537,7 @@
       "model": "Alaska"
     }
   ],
-  "Ford": [
+  "ford": [
     {
       "model": "Escape"
     },
@@ -2590,7 +2590,7 @@
       "model": "Transit Connect"
     }
   ],
-  "Forthing": [
+  "forthing": [
     {
       "model": "T5"
     },
@@ -2631,7 +2631,7 @@
       "model": "Friday"
     }
   ],
-  "Fortschritt": [
+  "fortschritt": [
     {
       "model": "ZT 300"
     },
@@ -2687,7 +2687,7 @@
       "model": "E 290"
     }
   ],
-  "Foton": [
+  "foton": [
     {
       "model": "Auman R"
     },
@@ -3031,7 +3031,7 @@
       "model": "View G83"
     }
   ],
-  "gaz_models": [
+  "gaz": [
     { "model": "Volga (GAZ-21)" },
     { "model": "Volga (GAZ-24)" },
     { "model": "Volga (GAZ-3102)" },
@@ -3040,7 +3040,7 @@
     { "model": "GAZelle Next" },
     { "model": "Sobol" }
   ],
-  "geely_models": [
+  "geely": [
     { "model": "CK/Otaka" },
     { "model": "Coolray/Bin Yue" },
     { "model": "Azkarra/Tugella" },
@@ -3063,7 +3063,7 @@
     { "model": "EC7" },
     { "model": "MK" }
   ],
-  "genesis_models": [
+  "genesis": [
     { "model": "G70" },
     { "model": "G80" },
     { "model": "G90" },
@@ -3073,7 +3073,7 @@
     { "model": "Electrified GV70" },
     { "model": "GV60" }
   ],
-  "gmc_models": [
+  "gmc": [
     { "model": "Sierra" },
     { "model": "Yukon" },
     { "model": "Terrain" },
@@ -3085,12 +3085,12 @@
     { "model": "Safari" },
     { "model": "Envoy" }
   ],
-  "gonow_models": [
+  "gonow": [
     { "model": "Troy/GX6" },
     { "model": "Way/GS50" },
     { "model": "Victor/GA/GAA" }
   ],
-  "great_wall_models": [
+  "great_wall": [
     { "model": "Haval H6" },
     { "model": "Cannon" },
     { "model": "Hover/H5" },
@@ -3100,7 +3100,7 @@
     { "model": "Additional Haval Models" },
     { "model": "Historical Models" }
   ],
-  "hafei_models": [
+  "hafei": [
     { "model": "Brio" },
     { "model": "Lobo" },
     { "model": "Princip" },
@@ -3108,7 +3108,7 @@
     { "model": "Saibao" },
     { "model": "Zhongyi" }
   ],
-  "haval_models": [
+  "haval": [
     { "model": "H6" },
     { "model": "Jolion" },
     { "model": "H9" },
@@ -3122,8 +3122,8 @@
     { "model": "H5" },
     { "model": "First Love" }
   ],
-  "hiphi_models": [{ "model": "Z" }, { "model": "A" }],
-  "honda_models": [
+  "hiphi": [{ "model": "Z" }, { "model": "A" }],
+  "honda": [
     { "model": "Civic" },
     { "model": "Accord" },
     { "model": "CR-V" },
@@ -3139,7 +3139,7 @@
     { "model": "e" },
     { "model": "Insight" }
   ],
-  "hongqi_models": [
+  "hongqi": [
     { "model": "H5" },
     { "model": "H7" },
     { "model": "H9" },
@@ -3151,7 +3151,7 @@
     { "model": "E-QM5" },
     { "model": "Historical/Classic Models" }
   ],
-  "huawei_models": [
+  "huawei": [
     { "model": "AITO M5" },
     { "model": "AITO M7" },
     { "model": "AITO M9" },
@@ -3164,20 +3164,20 @@
     { "model": "Changan UNI-V" },
     { "model": "JAC Sehol E10X" }
   ],
-  "hummer_models": [
+  "hummer": [
     { "model": "H1" },
     { "model": "H2" },
     { "model": "H3" },
     { "model": "H3T" },
     { "model": "EV (GMC Hummer EV)" }
   ],
-  "hyster_models": [
+  "hyster": [
     { "model": "H Series (Forklifts)" },
     { "model": "J Series (Electric Forklifts)" },
     { "model": "R Series (Reach Trucks)" },
     { "model": "P Series (Pallet Trucks)" }
   ],
-  "hyundai_models": [
+  "hyundai": [
     { "model": "Elantra" },
     { "model": "Sonata" },
     { "model": "Tucson" },
@@ -3195,13 +3195,13 @@
     { "model": "Tiburon" },
     { "model": "XG" }
   ],
-  "im_motors_models": [
+  "im_motors": [
     { "model": "L7" },
     { "model": "LS7" },
     { "model": "L5" },
     { "model": "L6" }
   ],
-  "infiniti_models": [
+  "infiniti": [
     { "model": "Q50" },
     { "model": "Q60" },
     { "model": "QX50" },
@@ -3219,7 +3219,7 @@
     { "model": "Q70" },
     { "model": "QX70" }
   ],
-  "iran_khodro_models": [
+  "iran_khodro": [
     { "model": "Samand" },
     { "model": "Dena" },
     { "model": "Peugeot 405" },
@@ -3227,7 +3227,7 @@
     { "model": "Tara" },
     { "model": "Soren" }
   ],
-  "isuzu_models": [
+  "isuzu": [
     { "model": "D-Max" },
     { "model": "MU-X" },
     { "model": "Trooper" },
@@ -3240,7 +3240,7 @@
     { "model": "Amigo" },
     { "model": "Hombre" }
   ],
-  "iveco_models": [
+  "iveco": [
     { "model": "Daily" },
     { "model": "EuroTech" },
     { "model": "Stralis" },
@@ -3248,21 +3248,21 @@
     { "model": "EuroCargo" },
     { "model": "eDaily" }
   ],
-  "izh_models": [
+  "izh": [
     { "model": "2125 Kombi" },
     { "model": "2126 Orbit" },
     { "model": "2715" },
     { "model": "Moskvich-412" },
     { "model": "Motorcycle IZH Planeta" }
   ],
-  "jac_models": [
+  "jac": [
     { "model": "S Series (SUVs)" },
     { "model": "J Series (Pickup/Trucks)" },
     { "model": "E Series (Electric)" },
     { "model": "Sehol Series" },
     { "model": "T Series" }
   ],
-  "jaguar_models": [
+  "jaguar": [
     { "model": "XE" },
     { "model": "XF" },
     { "model": "F-TYPE" },
@@ -3276,7 +3276,7 @@
     { "model": "X-Type" },
     { "model": "Mark Series" }
   ],
-  "jetour_models": [
+  "jetour": [
     { "model": "X70" },
     { "model": "X90" },
     { "model": "X95" },
@@ -3284,14 +3284,14 @@
     { "model": "T-X" },
     { "model": "T1" }
   ],
-  "karsan_models": [
+  "karsan": [
     { "model": "Jest" },
     { "model": "Atak" },
     { "model": "Jest Electric" },
     { "model": "Atak Electric" },
     { "model": "V1" }
   ],
-  "kia_models": [
+  "kia": [
     { "model": "Sportage" },
     { "model": "Telluride" },
     { "model": "Sorento" },
@@ -3310,8 +3310,10 @@
     { "model": "Borrego" },
     { "model": "EV9" }
   ],
-  "lamborghini_models": [
-    { "model": "Aventador" },
+  "lamborghini": [
+    {
+      "model": "Aventador"
+    },
     { "model": "Huracán" },
     { "model": "Urus" },
     { "model": "Gallardo" },
@@ -3329,7 +3331,7 @@
     { "model": "Centenario" },
     { "model": "Veneno" }
   ],
-  "lancia_models": [
+  "lancia": [
     { "model": "Delta" },
     { "model": "Stratos" },
     { "model": "Ypsilon" },
@@ -3348,7 +3350,7 @@
     { "model": "Zeta" },
     { "model": "Appia" }
   ],
-  "land_rover_models": [
+  "land_rover": [
     { "model": "Range Rover" },
     { "model": "Defender" },
     { "model": "Discovery" },
@@ -3361,7 +3363,7 @@
     { "model": "Series II/IIA" },
     { "model": "Series III" }
   ],
-  "leap_motor_models": [
+  "leap_motor": [
     { "model": "T03" },
     { "model": "C11" },
     { "model": "S01" },
@@ -3369,7 +3371,7 @@
     { "model": "LP-S01" },
     { "model": "C12" }
   ],
-  "lexus_models": [
+  "lexus": [
     { "model": "LS" },
     { "model": "ES" },
     { "model": "RX" },
@@ -3394,7 +3396,7 @@
     { "model": "RC F" },
     { "model": "GS F" }
   ],
-  "lifan_models": [
+  "lifan": [
     { "model": "320" },
     { "model": "520" },
     { "model": "620" },
@@ -3403,7 +3405,7 @@
     { "model": "Myway" },
     { "model": "X50" }
   ],
-  "lincoln_models": [
+  "lincoln": [
     { "model": "Continental" },
     { "model": "Navigator" },
     { "model": "Aviator" },
@@ -3420,7 +3422,7 @@
     { "model": "Blackwood" },
     { "model": "Mark LT" }
   ],
-  "linde_models": [
+  "linde": [
     { "model": "H20" },
     { "model": "H30" },
     { "model": "H35" },
@@ -3428,19 +3430,19 @@
     { "model": "H45" },
     { "model": "H50" }
   ],
-  "lixiang_models": [
+  "lixiang": [
     { "model": "One (Li One)" },
     { "model": "L7" },
     { "model": "L8" },
     { "model": "L9" }
   ],
-  "lonking_models": [
+  "lonking": [
     { "model": "CDM6225" },
     { "model": "LG6360E" },
     { "model": "CDM816" },
     { "model": "ZL50NC" }
   ],
-  "lotus_models": [
+  "lotus": [
     { "model": "Elise" },
     { "model": "Exige" },
     { "model": "Evora" },
@@ -3459,7 +3461,7 @@
     { "model": "Eletere" },
     { "model": "Type 135" }
   ],
-  "lti_models": [
+  "lti": [
     { "model": "TX1" },
     { "model": "TX2" },
     { "model": "TX4" },
@@ -3468,7 +3470,7 @@
     { "model": "Fairway Driver" },
     { "model": "FX3" }
   ],
-  "lynk_and_co_models": [
+  "lynk_and_co": [
     { "model": "01" },
     { "model": "02" },
     { "model": "03" },
@@ -3478,7 +3480,7 @@
     { "model": "08" },
     { "model": "09" }
   ],
-  "maserati_models": [
+  "maserati": [
     { "model": "Ghibli" },
     { "model": "Quattroporte" },
     { "model": "Levante" },
@@ -3502,7 +3504,7 @@
     { "model": "Mistral" },
     { "model": "Sebring" }
   ],
-  "maybach_models": [
+  "maybach": [
     { "model": "57" },
     { "model": "62" },
     { "model": "S-Class (Mercedes-Maybach)" },
@@ -3512,7 +3514,7 @@
     { "model": "Landaulet" },
     { "model": "Zeppelin" }
   ],
-  "mazda_models": [
+  "mazda": [
     { "model": "323/Familia/Protegé" },
     { "model": "626/6" },
     { "model": "MX-5/Miata" },
@@ -3545,7 +3547,7 @@
     { "model": "RX-3" },
     { "model": "RX-4" }
   ],
-  "mclaren_models": [
+  "mclaren": [
     { "model": "F1" },
     { "model": "MP4-12C" },
     { "model": "P1" },
@@ -3566,7 +3568,7 @@
     { "model": "Sabre" },
     { "model": "Solus GT" }
   ],
-  "mercedes_models": [
+  "mercedes": [
     { "model": "A-Class" },
     { "model": "B-Class" },
     { "model": "C-Class" },
@@ -3606,7 +3608,7 @@
     { "model": "EQV" },
     { "model": "EQT" }
   ],
-  "mercury_models": [
+  "mercury": [
     { "model": "Grand Marquis" },
     { "model": "Cougar" },
     { "model": "Sable" },
@@ -3629,7 +3631,7 @@
     { "model": "Zephyr" },
     { "model": "LN7" }
   ],
-  "mg_models": [
+  "mg": [
     { "model": "MG T-Series" },
     { "model": "MGA" },
     { "model": "MGB" },
@@ -3654,724 +3656,218 @@
     { "model": "Magnette" },
     { "model": "Metro" }
   ],
-  "mini_models": [
+  "mini": [
     {
-      "model": "Classic Mini",
-      "prices_by_year": {
-        "1959": "$1,300",
-        "1964": "$1,500",
-        "1969": "$1,800",
-        "1974": "$2,200",
-        "1979": "$3,000",
-        "1984": "$4,000",
-        "1989": "$6,000",
-        "1994": "$8,000",
-        "2000": "$10,000"
-      }
+      "model": "Classic Mini"
     },
     {
-      "model": "Cooper/Cooper S (Modern)",
-      "prices_by_year": {
-        "2002": "$16,000",
-        "2007": "$18,000",
-        "2012": "$20,000",
-        "2017": "$22,000",
-        "2022": "$24,000",
-        "2024": "$25,000"
-      }
+      "model": "Cooper/Cooper S (Modern)"
     },
     {
-      "model": "Clubman",
-      "prices_by_year": {
-        "2007": "$19,000",
-        "2012": "$21,000",
-        "2017": "$24,000",
-        "2022": "$26,000",
-        "2024": "$27,000"
-      }
+      "model": "Clubman"
     },
     {
-      "model": "Countryman",
-      "prices_by_year": {
-        "2010": "$22,000",
-        "2015": "$24,000",
-        "2020": "$28,000",
-        "2024": "$30,000"
-      }
+      "model": "Countryman"
     },
     {
-      "model": "Paceman",
-      "prices_by_year": {
-        "2012": "$23,000",
-        "2013": "$24,000",
-        "2014": "$25,000",
-        "2015": "$26,000",
-        "2016": "$27,000"
-      }
+      "model": "Paceman"
     },
     {
-      "model": "Roadster",
-      "prices_by_year": {
-        "2012": "$25,000",
-        "2013": "$26,000",
-        "2014": "$27,000",
-        "2015": "$28,000"
-      }
+      "model": "Roadster"
     },
     {
-      "model": "Coupe",
-      "prices_by_year": {
-        "2011": "$24,000",
-        "2012": "$25,000",
-        "2013": "$26,000",
-        "2014": "$27,000",
-        "2015": "$28,000"
-      }
+      "model": "Coupe"
     },
     {
-      "model": "5-door Hatch",
-      "prices_by_year": {
-        "2014": "$21,000",
-        "2018": "$23,000",
-        "2022": "$25,000",
-        "2024": "$26,000"
-      }
+      "model": "5-door Hatch"
     },
     {
-      "model": "Electric",
-      "prices_by_year": {
-        "2020": "$30,000",
-        "2021": "$31,000",
-        "2022": "$32,000",
-        "2023": "$33,000",
-        "2024": "$34,000"
-      }
+      "model": "Electric"
     },
     {
-      "model": "John Cooper Works GP",
-      "prices_by_year": {
-        "2006": "$31,000",
-        "2013": "$39,000",
-        "2020": "$45,000"
-      }
+      "model": "John Cooper Works GP"
     },
     {
-      "model": "Convertible/Cabrio",
-      "prices_by_year": {
-        "2004": "$21,000",
-        "2009": "$23,000",
-        "2014": "$25,000",
-        "2019": "$28,000",
-        "2024": "$30,000"
-      }
+      "model": "Convertible/Cabrio"
     },
     {
-      "model": "Aceman",
-      "prices_by_year": {
-        "2024": "$35,000"
-      }
+      "model": "Aceman"
     }
   ],
-  "mitsubishi_models": [
+  "mitsubishi": [
     {
-      "model": "Lancer/Lancer Evolution",
-      "prices_by_year": {
-        "1973": "$3,000",
-        "1978": "$4,500",
-        "1983": "$6,000",
-        "1988": "$8,000",
-        "1993": "$12,000",
-        "1998": "$15,000",
-        "2003": "$18,000",
-        "2008": "$21,000",
-        "2013": "$23,000",
-        "2017": "$25,000"
-      }
+      "model": "Lancer/Lancer Evolution"
     },
     {
-      "model": "Eclipse",
-      "prices_by_year": {
-        "1990": "$12,000",
-        "1995": "$14,000",
-        "2000": "$16,000",
-        "2005": "$18,000",
-        "2010": "$20,000",
-        "2012": "$22,000"
-      }
+      "model": "Eclipse"
     },
     {
-      "model": "Eclipse Cross",
-      "prices_by_year": {
-        "2018": "$23,000",
-        "2020": "$24,000",
-        "2022": "$25,000",
-        "2024": "$26,000"
-      }
+      "model": "Eclipse Cross"
     },
     {
-      "model": "Outlander",
-      "prices_by_year": {
-        "2003": "$18,000",
-        "2008": "$20,000",
-        "2013": "$22,000",
-        "2018": "$24,000",
-        "2022": "$26,000",
-        "2024": "$28,000"
-      }
+      "model": "Outlander"
     },
     {
-      "model": "Outlander Sport/RVR",
-      "prices_by_year": {
-        "2010": "$18,000",
-        "2015": "$20,000",
-        "2020": "$22,000",
-        "2024": "$24,000"
-      }
+      "model": "Outlander Sport/RVR"
     },
     {
-      "model": "Pajero/Montero",
-      "prices_by_year": {
-        "1982": "$8,000",
-        "1987": "$10,000",
-        "1992": "$15,000",
-        "1997": "$20,000",
-        "2002": "$25,000",
-        "2007": "$30,000",
-        "2012": "$35,000",
-        "2019": "$40,000"
-      }
+      "model": "Pajero/Montero"
     },
     {
-      "model": "Galant",
-      "prices_by_year": {
-        "1969": "$2,500",
-        "1974": "$3,500",
-        "1979": "$5,000",
-        "1984": "$7,000",
-        "1989": "$9,000",
-        "1994": "$12,000",
-        "1999": "$15,000",
-        "2004": "$17,000",
-        "2009": "$19,000",
-        "2012": "$21,000"
-      }
+      "model": "Galant"
     },
     {
-      "model": "3000GT/GTO",
-      "prices_by_year": {
-        "1990": "$25,000",
-        "1995": "$28,000",
-        "2000": "$30,000"
-      }
+      "model": "3000GT/GTO"
     },
     {
-      "model": "Mirage",
-      "prices_by_year": {
-        "1978": "$4,000",
-        "1983": "$5,000",
-        "1988": "$6,000",
-        "1993": "$8,000",
-        "1998": "$10,000",
-        "2003": "$12,000",
-        "2014": "$13,000",
-        "2019": "$14,000",
-        "2024": "$15,000"
-      }
+      "model": "Mirage"
     },
     {
-      "model": "ASX/Outlander Sport",
-      "prices_by_year": {
-        "2010": "$18,000",
-        "2015": "$20,000",
-        "2020": "$22,000",
-        "2024": "$24,000"
-      }
+      "model": "ASX/Outlander Sport"
     },
     {
-      "model": "L200/Triton",
-      "prices_by_year": {
-        "1978": "$5,000",
-        "1983": "$7,000",
-        "1988": "$9,000",
-        "1993": "$11,000",
-        "1998": "$13,000",
-        "2003": "$15,000",
-        "2008": "$17,000",
-        "2013": "$19,000",
-        "2018": "$21,000",
-        "2024": "$23,000"
-      }
+      "model": "L200/Triton"
     },
     {
-      "model": "i-MiEV",
-      "prices_by_year": {
-        "2009": "$30,000",
-        "2012": "$29,000",
-        "2015": "$28,000",
-        "2017": "$27,000"
-      }
+      "model": "i-MiEV"
     },
     {
-      "model": "Sigma/Diamante",
-      "prices_by_year": {
-        "1990": "$15,000",
-        "1995": "$18,000",
-        "2000": "$20,000",
-        "2004": "$22,000"
-      }
+      "model": "Sigma/Diamante"
     },
     {
-      "model": "Starion",
-      "prices_by_year": {
-        "1982": "$10,000",
-        "1985": "$12,000",
-        "1988": "$14,000",
-        "1989": "$15,000"
-      }
+      "model": "Starion"
     },
     {
-      "model": "Endeavor",
-      "prices_by_year": {
-        "2004": "$21,000",
-        "2007": "$23,000",
-        "2011": "$25,000"
-      }
+      "model": "Endeavor"
     },
     {
-      "model": "Raider",
-      "prices_by_year": {
-        "2006": "$18,000",
-        "2007": "$19,000",
-        "2009": "$20,000"
-      }
+      "model": "Raider"
     },
     {
-      "model": "Magna",
-      "prices_by_year": {
-        "1985": "$12,000",
-        "1990": "$14,000",
-        "1995": "$16,000",
-        "2000": "$18,000",
-        "2005": "$20,000"
-      }
+      "model": "Magna"
     },
     {
-      "model": "Challenger/Pajero Sport",
-      "prices_by_year": {
-        "1996": "$22,000",
-        "2000": "$24,000",
-        "2005": "$26,000",
-        "2010": "$28,000",
-        "2015": "$30,000",
-        "2020": "$32,000",
-        "2024": "$34,000"
-      }
+      "model": "Challenger/Pajero Sport"
     },
     {
-      "model": "Delica/L300",
-      "prices_by_year": {
-        "1979": "$8,000",
-        "1984": "$10,000",
-        "1989": "$12,000",
-        "1994": "$14,000",
-        "1999": "$16,000",
-        "2004": "$18,000",
-        "2009": "$20,000",
-        "2014": "$22,000",
-        "2019": "$24,000",
-        "2024": "$26,000"
-      }
+      "model": "Delica/L300"
     },
     {
-      "model": "Colt",
-      "prices_by_year": {
-        "1962": "$2,000",
-        "1970": "$3,000",
-        "1978": "$4,000",
-        "1984": "$5,000",
-        "1990": "$7,000",
-        "1996": "$9,000",
-        "2002": "$11,000",
-        "2008": "$13,000",
-        "2012": "$15,000"
-      }
+      "model": "Colt"
     },
     {
-      "model": "Grandis",
-      "prices_by_year": {
-        "2003": "$18,000",
-        "2007": "$20,000",
-        "2011": "$22,000"
-      }
+      "model": "Grandis"
     },
     {
-      "model": "FTO",
-      "prices_by_year": {
-        "1994": "$15,000",
-        "1997": "$17,000",
-        "2000": "$19,000"
-      }
+      "model": "FTO"
     },
     {
-      "model": "Carisma",
-      "prices_by_year": {
-        "1995": "$14,000",
-        "2000": "$16,000",
-        "2004": "$18,000"
-      }
+      "model": "Carisma"
     },
     {
-      "model": "Space Star",
-      "prices_by_year": {
-        "1998": "$12,000",
-        "2003": "$14,000",
-        "2013": "$16,000",
-        "2018": "$18,000",
-        "2024": "$20,000"
-      }
+      "model": "Space Star"
     },
     {
-      "model": "Space Runner/RVR",
-      "prices_by_year": {
-        "1991": "$12,000",
-        "1996": "$14,000",
-        "2001": "$16,000",
-        "2002": "$17,000"
-      }
+      "model": "Space Runner/RVR"
     },
     {
-      "model": "Space Wagon/Chariot",
-      "prices_by_year": {
-        "1983": "$8,000",
-        "1988": "$10,000",
-        "1993": "$12,000",
-        "1998": "$14,000",
-        "2003": "$16,000"
-      }
+      "model": "Space Wagon/Chariot"
     },
     {
-      "model": "Xpander",
-      "prices_by_year": {
-        "2017": "$15,000",
-        "2020": "$17,000",
-        "2024": "$19,000"
-      }
+      "model": "Xpander"
+    },
+    {}
+  ],
+  "mitsuoka": [
+    {
+      "model": "Viewt"
     },
     {
-      "model": "Airtrek",
-      "prices_by_year": {
-        "2001": "$15,000",
-        "2005": "$17,000"
-      }
+      "model": "Galue"
+    },
+    {
+      "model": "Le-Seyde"
+    },
+    {
+      "model": "Zero1"
+    },
+    {
+      "model": "Orochi"
+    },
+    {
+      "model": "Himiko"
+    },
+    {
+      "model": "Rock Star"
+    },
+    {
+      "model": "Buddy"
+    },
+    {
+      "model": "Nouera"
+    },
+    {
+      "model": "Ryugi"
     }
   ],
-  "mitsuoka_models": [
+  "moskvich": [
     {
-      "model": "Viewt",
-      "prices_by_year": {
-        "1993": "$25,000",
-        "1998": "$27,000",
-        "2003": "$29,000",
-        "2008": "$31,000",
-        "2013": "$33,000",
-        "2018": "$35,000",
-        "2023": "$37,000",
-        "2024": "$38,000"
-      }
+      "model": "400/401"
     },
     {
-      "model": "Galue",
-      "prices_by_year": {
-        "1996": "$45,000",
-        "2000": "$48,000",
-        "2004": "$50,000",
-        "2008": "$52,000",
-        "2012": "$54,000",
-        "2016": "$56,000",
-        "2020": "$58,000",
-        "2024": "$60,000"
-      }
+      "model": "402/403/407"
     },
     {
-      "model": "Le-Seyde",
-      "prices_by_year": {
-        "1990": "$65,000",
-        "1991": "$67,000",
-        "1992": "$69,000",
-        "1993": "$71,000"
-      }
+      "model": "408"
     },
     {
-      "model": "Zero1",
-      "prices_by_year": {
-        "1996": "$30,000",
-        "1997": "$31,000",
-        "1998": "$32,000"
-      }
+      "model": "412"
     },
     {
-      "model": "Orochi",
-      "prices_by_year": {
-        "2006": "$90,000",
-        "2008": "$92,000",
-        "2010": "$94,000",
-        "2012": "$96,000",
-        "2014": "$98,000"
-      }
+      "model": "2138/2140"
     },
     {
-      "model": "Himiko",
-      "prices_by_year": {
-        "2008": "$75,000",
-        "2010": "$77,000",
-        "2012": "$79,000",
-        "2014": "$81,000",
-        "2016": "$83,000",
-        "2018": "$85,000",
-        "2020": "$87,000",
-        "2024": "$90,000"
-      }
+      "model": "2141/Aleko"
     },
     {
-      "model": "Rock Star",
-      "prices_by_year": {
-        "2018": "$45,000",
-        "2019": "$46,000",
-        "2020": "$47,000",
-        "2021": "$48,000",
-        "2022": "$49,000",
-        "2023": "$50,000",
-        "2024": "$51,000"
-      }
-    },
-    {
-      "model": "Buddy",
-      "prices_by_year": {
-        "2020": "$45,000",
-        "2021": "$46,000",
-        "2022": "$47,000",
-        "2023": "$48,000",
-        "2024": "$49,000"
-      }
-    },
-    {
-      "model": "Nouera",
-      "prices_by_year": {
-        "2005": "$40,000",
-        "2006": "$41,000",
-        "2007": "$42,000",
-        "2008": "$43,000"
-      }
-    },
-    {
-      "model": "Ryugi",
-      "prices_by_year": {
-        "1996": "$38,000",
-        "1997": "$39,000",
-        "1998": "$40,000",
-        "1999": "$41,000"
-      }
+      "model": "3"
     }
   ],
-  "moskvich_models": [
+  "neta": [
     {
-      "model": "400/401",
-      "prices_by_year": {
-        "1946": "$500",
-        "1947": "$550",
-        "1948": "$600",
-        "1949": "$650",
-        "1950": "$700",
-        "1951": "$750",
-        "1952": "$800",
-        "1953": "$850",
-        "1954": "$900"
-      }
+      "model": "V"
     },
     {
-      "model": "402/403/407",
-      "prices_by_year": {
-        "1956": "$1,000",
-        "1957": "$1,100",
-        "1958": "$1,200",
-        "1959": "$1,300",
-        "1960": "$1,400",
-        "1961": "$1,500",
-        "1962": "$1,600",
-        "1963": "$1,700"
-      }
+      "model": "U"
     },
     {
-      "model": "408",
-      "prices_by_year": {
-        "1964": "$1,800",
-        "1965": "$1,900",
-        "1966": "$2,000",
-        "1967": "$2,100",
-        "1968": "$2,200",
-        "1969": "$2,300",
-        "1970": "$2,400",
-        "1971": "$2,500",
-        "1972": "$2,600",
-        "1973": "$2,700",
-        "1974": "$2,800",
-        "1975": "$2,900"
-      }
+      "model": "S"
     },
     {
-      "model": "412",
-      "prices_by_year": {
-        "1967": "$2,200",
-        "1968": "$2,300",
-        "1969": "$2,400",
-        "1970": "$2,500",
-        "1971": "$2,600",
-        "1972": "$2,700",
-        "1973": "$2,800",
-        "1974": "$2,900",
-        "1975": "$3,000",
-        "1976": "$3,100"
-      }
+      "model": "GT"
     },
     {
-      "model": "2138/2140",
-      "prices_by_year": {
-        "1976": "$3,000",
-        "1977": "$3,100",
-        "1978": "$3,200",
-        "1979": "$3,300",
-        "1980": "$3,400",
-        "1981": "$3,500",
-        "1982": "$3,600",
-        "1983": "$3,700",
-        "1984": "$3,800",
-        "1985": "$3,900",
-        "1988": "$4,000"
-      }
-    },
-    {
-      "model": "2141/Aleko",
-      "prices_by_year": {
-        "1986": "$4,000",
-        "1987": "$4,100",
-        "1988": "$4,200",
-        "1989": "$4,300",
-        "1990": "$4,400",
-        "1991": "$4,500",
-        "1992": "$4,600",
-        "1993": "$4,700",
-        "1994": "$4,800",
-        "1995": "$4,900",
-        "1996": "$5,000",
-        "1997": "$5,100",
-        "1998": "$5,200"
-      }
-    },
-    {
-      "model": "3",
-      "prices_by_year": {
-        "2022": "$20,000",
-        "2023": "$21,000",
-        "2024": "$22,000"
-      }
+      "model": "ME"
     }
   ],
-  "neta_models": [
+  "niewiadow": [
     {
-      "model": "V",
-      "prices_by_year": {
-        "2020": "$15,000",
-        "2021": "$16,000",
-        "2022": "$17,000",
-        "2023": "$18,000",
-        "2024": "$19,000"
-      }
+      "model": "N126"
     },
     {
-      "model": "U",
-      "prices_by_year": {
-        "2021": "$18,000",
-        "2022": "$19,000",
-        "2023": "$20,000",
-        "2024": "$21,000"
-      }
+      "model": "N132"
     },
     {
-      "model": "S",
-      "prices_by_year": {
-        "2022": "$25,000",
-        "2023": "$26,000",
-        "2024": "$27,000"
-      }
+      "model": "N127"
     },
     {
-      "model": "GT",
-      "prices_by_year": {
-        "2023": "$30,000",
-        "2024": "$31,000"
-      }
+      "model": "N250"
     },
     {
-      "model": "ME",
-      "prices_by_year": {
-        "2023": "$16,000",
-        "2024": "$17,000"
-      }
+      "model": "N400"
     }
   ],
-  "niewiadow_models": [
-    {
-      "model": "N126",
-      "prices_by_year": {
-        "1973": "$2,000",
-        "1975": "$2,200",
-        "1980": "$2,500",
-        "1985": "$2,800",
-        "1990": "$3,000",
-        "1995": "$3,500"
-      }
-    },
-    {
-      "model": "N132",
-      "prices_by_year": {
-        "1980": "$3,000",
-        "1985": "$3,300",
-        "1990": "$3,600",
-        "1995": "$4,000"
-      }
-    },
-    {
-      "model": "N127",
-      "prices_by_year": {
-        "1985": "$2,800",
-        "1990": "$3,100",
-        "1995": "$3,400",
-        "2000": "$3,700"
-      }
-    },
-    {
-      "model": "N250",
-      "prices_by_year": {
-        "1990": "$4,000",
-        "1995": "$4,500",
-        "2000": "$5,000",
-        "2005": "$5,500",
-        "2010": "$6,000"
-      }
-    },
-    {
-      "model": "N400",
-      "prices_by_year": {
-        "2000": "$5,500",
-        "2005": "$6,000",
-        "2010": "$6,500",
-        "2015": "$7,000",
-        "2020": "$7,500",
-        "2024": "$8,000"
-      }
-    }
-  ],
-  "nio_models": [
+  "nio": [
     { "model": "EP9" },
     { "model": "ES8" },
     { "model": "ES6" },
@@ -4384,7 +3880,7 @@
     { "model": "EL6" },
     { "model": "EL7" }
   ],
-  "nissan_models": [
+  "nissan": [
     { "model": "Altima" },
     { "model": "Maxima" },
     { "model": "Sentra" },
@@ -4417,7 +3913,7 @@
     { "model": "Note/Versa Note" },
     { "model": "Sunny" }
   ],
-  "oldsmobile_models": [
+  "oldsmobile": [
     { "model": "Cutlass" },
     { "model": "88" },
     { "model": "98" },
@@ -4434,7 +3930,7 @@
     { "model": "Omega" },
     { "model": "Starfire" }
   ],
-  "opel_models": [
+  "opel": [
     { "model": "Corsa" },
     { "model": "Astra" },
     { "model": "Insignia" },
@@ -4454,7 +3950,7 @@
     { "model": "Ampera" },
     { "model": "Rocks-e" }
   ],
-  "peugeot_models": [
+  "peugeot": [
     { "model": "208" },
     { "model": "308" },
     { "model": "508" },
@@ -4493,14 +3989,14 @@
     { "model": "e-2008" },
     { "model": "408" }
   ],
-  "polestar_models": [
+  "polestar": [
     { "model": "1" },
     { "model": "2" },
     { "model": "3" },
     { "model": "4" },
     { "model": "5" }
   ],
-  "pontiac_models": [
+  "pontiac": [
     { "model": "GTO" },
     { "model": "Firebird" },
     { "model": "Trans Am" },
@@ -4528,7 +4024,7 @@
     { "model": "T1000" },
     { "model": "2000" }
   ],
-  "porsche_models": [
+  "porsche": [
     { "model": "911" },
     { "model": "Cayenne" },
     { "model": "Panamera" },
@@ -4550,7 +4046,7 @@
     { "model": "GT2 RS" },
     { "model": "GT3 RS" }
   ],
-  "proton_models": [
+  "proton": [
     { "model": "Saga" },
     { "model": "Persona" },
     { "model": "Wira/400 Series" },
@@ -4567,7 +4063,7 @@
     { "model": "Satria Neo" },
     { "model": "S16" }
   ],
-  "renault_models": [
+  "renault": [
     { "model": "Clio" },
     { "model": "Megane" },
     { "model": "Captur" },
@@ -4598,7 +4094,7 @@
     { "model": "Koleos" },
     { "model": "Modus" }
   ],
-  "renault_samsung_models": [
+  "renault_samsung": [
     { "model": "SM3/Samsung SM3" },
     { "model": "SM5/Samsung SM5" },
     { "model": "SM6" },
@@ -4607,7 +4103,7 @@
     { "model": "QM6" },
     { "model": "XM3" }
   ],
-  "roewe_models": [
+  "roewe": [
     { "model": "750" },
     { "model": "550" },
     { "model": "350" },
@@ -4620,7 +4116,7 @@
     { "model": "Ei5" },
     { "model": "RX8" }
   ],
-  "rolls_royce_models": [
+  "rolls_royce": [
     { "model": "Phantom" },
     { "model": "Ghost" },
     { "model": "Wraith" },
@@ -4635,7 +4131,7 @@
     { "model": "Silver Seraph" },
     { "model": "Park Ward" }
   ],
-  "rover_models": [
+  "rover": [
     { "model": "75" },
     { "model": "45" },
     { "model": "25" },
@@ -4651,7 +4147,7 @@
     { "model": "P4" },
     { "model": "CityRover" }
   ],
-  "saab_models": [
+  "saab": [
     { "model": "900" },
     { "model": "9000" },
     { "model": "9-3" },
@@ -4666,7 +4162,7 @@
     { "model": "94" },
     { "model": "97" }
   ],
-  "saleen_models": [
+  "saleen": [
     { "model": "S7" },
     { "model": "S281/Mustang" },
     { "model": "S302" },
@@ -4676,7 +4172,7 @@
     { "model": "GTX" },
     { "model": "S1" }
   ],
-  "saturn_models": [
+  "saturn": [
     { "model": "S-Series (SL, SC, SW)" },
     { "model": "L-Series" },
     { "model": "Ion" },
@@ -4687,7 +4183,7 @@
     { "model": "Sky" },
     { "model": "Astra" }
   ],
-  "scion_models": [
+  "scion": [
     { "model": "xA" },
     { "model": "xB" },
     { "model": "tC" },
@@ -4695,7 +4191,7 @@
     { "model": "iQ" },
     { "model": "FR-S" }
   ],
-  "seat_models": [
+  "seat": [
     { "model": "Leon" },
     { "model": "Ibiza" },
     { "model": "Arona" },
@@ -4718,7 +4214,7 @@
     { "model": "133" },
     { "model": "124" }
   ],
-  "skoda_models": [
+  "skoda": [
     { "model": "Octavia" },
     { "model": "Fabia" },
     { "model": "Superb" },
@@ -4735,7 +4231,7 @@
     { "model": "Felicia" },
     { "model": "105/120/125" }
   ],
-  "skywell_models": [
+  "skywell": [
     { "model": "ET5" },
     { "model": "HT9" },
     { "model": "D11" },
@@ -4743,7 +4239,7 @@
     { "model": "EF3" },
     { "model": "EA5" }
   ],
-  "smart_models": [
+  "smart": [
     { "model": "ForTwo" },
     { "model": "ForFour" },
     { "model": "Roadster" },
@@ -4751,7 +4247,7 @@
     { "model": "#1" },
     { "model": "#3" }
   ],
-  "soueast_models": [
+  "soueast": [
     { "model": "Delica" },
     { "model": "V3" },
     { "model": "V5" },
@@ -4763,7 +4259,7 @@
     { "model": "A5" },
     { "model": "DX5" }
   ],
-  "ssangyong_models": [
+  "ssangyong": [
     { "model": "Rexton" },
     { "model": "Korando" },
     { "model": "Musso" },
@@ -4775,7 +4271,7 @@
     { "model": "XLV" },
     { "model": "Torres" }
   ],
-  "subaru_models": [
+  "subaru": [
     { "model": "Impreza/WRX/STI" },
     { "model": "Legacy" },
     { "model": "Outback" },
@@ -4797,7 +4293,7 @@
     { "model": "Alcyone" },
     { "model": "Domingo" }
   ],
-  "suzuki_models": [
+  "suzuki": [
     { "model": "Swift" },
     { "model": "Vitara/Grand Vitara" },
     { "model": "Jimny" },
@@ -4824,7 +4320,7 @@
     { "model": "Across" },
     { "model": "Swace" }
   ],
-  "tata_models": [
+  "tata": [
     { "model": "Indica" },
     { "model": "Indigo" },
     { "model": "Safari" },
@@ -4846,14 +4342,14 @@
     { "model": "Curvv" },
     { "model": "Avinya" }
   ],
-  "tesla_models": [
+  "tesla": [
     { "model": "Model S" },
     { "model": "Model 3" },
     { "model": "Model X" },
     { "model": "Model Y" },
     { "model": "Cybertruck" }
   ],
-  "toyota_models": [
+  "toyota": [
     { "model": "Corolla" },
     { "model": "Camry" },
     { "model": "RAV4" },
@@ -4884,7 +4380,7 @@
     { "model": "Previa" },
     { "model": "Sequoia" }
   ],
-  "uaz_models": [
+  "uaz": [
     { "model": "469/Hunter" },
     { "model": "452/Patriot" },
     { "model": "Pickup" },
@@ -4893,7 +4389,7 @@
     { "model": "Profi" },
     { "model": "452/Bukhanka" }
   ],
-  "vaz_models": [
+  "vaz": [
     { "model": "2101" },
     { "model": "2102" },
     { "model": "2103" },
@@ -4912,7 +4408,7 @@
     { "model": "2115" },
     { "model": "Niva/2121" }
   ],
-  "volkswagen_models": [
+  "volkswagen": [
     { "model": "Beetle" },
     { "model": "Golf" },
     { "model": "Passat" },
@@ -4943,471 +4439,180 @@
     { "model": "Caddy" },
     { "model": "Transporter/Multivan" }
   ],
-  "volvo_models": [
+  "volvo": [
     {
-      "model": "XC90",
-      "prices_by_year": {
-        "2002": "$35,000",
-        "2007": "$38,000",
-        "2012": "$42,000",
-        "2017": "$45,000",
-        "2022": "$50,000",
-        "2024": "$55,000"
-      }
+      "model": "XC90"
     },
     {
-      "model": "XC60",
-      "prices_by_year": {
-        "2008": "$32,000",
-        "2013": "$35,000",
-        "2018": "$40,000",
-        "2024": "$45,000"
-      }
+      "model": "XC60"
     },
     {
-      "model": "XC40",
-      "prices_by_year": {
-        "2017": "$35,000",
-        "2020": "$38,000",
-        "2024": "$40,000"
-      }
+      "model": "XC40"
     },
     {
-      "model": "S90",
-      "prices_by_year": {
-        "2016": "$45,000",
-        "2019": "$48,000",
-        "2024": "$52,000"
-      }
+      "model": "S90"
     },
     {
-      "model": "S60",
-      "prices_by_year": {
-        "2000": "$28,000",
-        "2005": "$30,000",
-        "2010": "$32,000",
-        "2015": "$35,000",
-        "2020": "$38,000",
-        "2024": "$40,000"
-      }
+      "model": "S60"
     },
     {
-      "model": "V90",
-      "prices_by_year": {
-        "2016": "$45,000",
-        "2019": "$48,000",
-        "2024": "$52,000"
-      }
+      "model": "V90"
     },
     {
-      "model": "V60",
-      "prices_by_year": {
-        "2010": "$32,000",
-        "2015": "$35,000",
-        "2020": "$38,000",
-        "2024": "$42,000"
-      }
+      "model": "V60"
     },
     {
-      "model": "850",
-      "prices_by_year": {
-        "1991": "$25,000",
-        "1995": "$28,000",
-        "1997": "$30,000"
-      }
+      "model": "850"
     },
     {
-      "model": "240",
-      "prices_by_year": {
-        "1974": "$4,000",
-        "1980": "$8,000",
-        "1985": "$12,000",
-        "1990": "$15,000",
-        "1993": "$18,000"
-      }
+      "model": "240"
     },
     {
-      "model": "740",
-      "prices_by_year": {
-        "1982": "$12,000",
-        "1987": "$15,000",
-        "1992": "$18,000"
-      }
+      "model": "740"
     },
     {
-      "model": "940",
-      "prices_by_year": {
-        "1990": "$20,000",
-        "1994": "$22,000",
-        "1998": "$24,000"
-      }
+      "model": "940"
     },
     {
-      "model": "960/S90/V90",
-      "prices_by_year": {
-        "1990": "$25,000",
-        "1995": "$28,000",
-        "1998": "$30,000"
-      }
+      "model": "960/S90/V90"
     },
     {
-      "model": "C30",
-      "prices_by_year": {
-        "2006": "$22,000",
-        "2010": "$25,000",
-        "2013": "$28,000"
-      }
+      "model": "C30"
     },
     {
-      "model": "C70",
-      "prices_by_year": {
-        "1996": "$35,000",
-        "2000": "$38,000",
-        "2006": "$40,000",
-        "2010": "$42,000",
-        "2013": "$45,000"
-      }
+      "model": "C70"
     },
     {
-      "model": "Amazon/120",
-      "prices_by_year": {
-        "1956": "$2,000",
-        "1960": "$2,500",
-        "1965": "$3,000",
-        "1970": "$3,500"
-      }
+      "model": "Amazon/120"
     },
     {
-      "model": "PV444/544",
-      "prices_by_year": {
-        "1947": "$1,500",
-        "1952": "$2,000",
-        "1957": "$2,500",
-        "1965": "$3,000"
-      }
+      "model": "PV444/544"
     },
     {
-      "model": "P1800",
-      "prices_by_year": {
-        "1961": "$4,000",
-        "1965": "$4,500",
-        "1970": "$5,000",
-        "1973": "$5,500"
-      }
+      "model": "P1800"
     },
     {
-      "model": "440",
-      "prices_by_year": {
-        "1987": "$12,000",
-        "1992": "$14,000",
-        "1996": "$16,000"
-      }
+      "model": "440"
     },
     {
-      "model": "460",
-      "prices_by_year": {
-        "1989": "$13,000",
-        "1993": "$15,000",
-        "1997": "$17,000"
-      }
+      "model": "460"
     },
     {
-      "model": "480",
-      "prices_by_year": {
-        "1986": "$15,000",
-        "1990": "$17,000",
-        "1995": "$19,000"
-      }
+      "model": "480"
     },
     {
-      "model": "S40/V40 (First Gen)",
-      "prices_by_year": {
-        "1995": "$20,000",
-        "2000": "$22,000",
-        "2004": "$24,000"
-      }
+      "model": "S40/V40 (First Gen)"
     },
     {
-      "model": "C40 Recharge",
-      "prices_by_year": {
-        "2021": "$58,000",
-        "2022": "$59,000",
-        "2023": "$60,000",
-        "2024": "$61,000"
-      }
+      "model": "C40 Recharge"
     },
     {
-      "model": "EX30",
-      "prices_by_year": {
-        "2024": "$35,000"
-      }
+      "model": "EX30"
     },
     {
-      "model": "EX90",
-      "prices_by_year": {
-        "2024": "$80,000"
-      }
+      "model": "EX90"
     },
     {
-      "model": "66",
-      "prices_by_year": {
-        "1975": "$4,000",
-        "1978": "$4,500",
-        "1980": "$5,000"
-      }
+      "model": "66"
     },
     {
-      "model": "340/360",
-      "prices_by_year": {
-        "1976": "$5,000",
-        "1980": "$6,000",
-        "1985": "$7,000",
-        "1990": "$8,000"
-      }
+      "model": "340/360"
     }
   ],
-  "voyah_models": [
+  "voyah": [
     {
-      "model": "Free",
-      "prices_by_year": {
-        "2021": "$42,000",
-        "2022": "$43,000",
-        "2023": "$44,000",
-        "2024": "$45,000"
-      }
+      "model": "Free"
     },
     {
-      "model": "Dream",
-      "prices_by_year": {
-        "2022": "$48,000",
-        "2023": "$49,000",
-        "2024": "$50,000"
-      }
+      "model": "Dream"
     },
     {
-      "model": "Passion",
-      "prices_by_year": {
-        "2023": "$52,000",
-        "2024": "$53,000"
-      }
+      "model": "Passion"
     },
     {
-      "model": "Fortune",
-      "prices_by_year": {
-        "2023": "$55,000",
-        "2024": "$56,000"
-      }
+      "model": "Fortune"
     }
   ],
-  "xiaomi_models": [
+  "xiaomi": [
     {
-      "model": "SU7",
-      "prices_by_year": {
-        "2024": "$37,000"
-      }
+      "model": "SU7"
     },
     {
-      "model": "SU7 Max",
-      "prices_by_year": {
-        "2024": "$52,000"
-      }
+      "model": "SU7 Max"
     }
   ],
-  "xpeng_models": [
+  "xpeng": [
     {
-      "model": "G3/G3i",
-      "prices_by_year": {
-        "2018": "$29,000",
-        "2019": "$30,000",
-        "2020": "$31,000",
-        "2021": "$32,000",
-        "2022": "$33,000",
-        "2023": "$34,000",
-        "2024": "$35,000"
-      }
+      "model": "G3/G3i"
     },
     {
-      "model": "P7",
-      "prices_by_year": {
-        "2020": "$32,000",
-        "2021": "$33,000",
-        "2022": "$34,000",
-        "2023": "$35,000",
-        "2024": "$36,000"
-      }
+      "model": "P7"
     },
     {
-      "model": "P5",
-      "prices_by_year": {
-        "2021": "$24,000",
-        "2022": "$25,000",
-        "2023": "$26,000",
-        "2024": "$27,000"
-      }
+      "model": "P5"
     },
     {
-      "model": "G9",
-      "prices_by_year": {
-        "2022": "$43,000",
-        "2023": "$44,000",
-        "2024": "$45,000"
-      }
+      "model": "G9"
     },
     {
-      "model": "G6",
-      "prices_by_year": {
-        "2024": "$35,000"
-      }
+      "model": "G6"
     },
     {
-      "model": "X9",
-      "prices_by_year": {
-        "2024": "$47,000"
-      }
+      "model": "X9"
     }
   ],
-  "yto_models": [
+  "yto": [
     {
-      "model": "X1204",
-      "prices_by_year": {
-        "2010": "$15,000",
-        "2015": "$17,000",
-        "2020": "$19,000",
-        "2024": "$21,000"
-      }
+      "model": "X1204"
     },
     {
-      "model": "X904",
-      "prices_by_year": {
-        "2012": "$12,000",
-        "2016": "$14,000",
-        "2020": "$16,000",
-        "2024": "$18,000"
-      }
+      "model": "X904"
     },
     {
-      "model": "X804",
-      "prices_by_year": {
-        "2014": "$10,000",
-        "2018": "$12,000",
-        "2022": "$14,000",
-        "2024": "$15,000"
-      }
+      "model": "X804"
     },
     {
-      "model": "LX2004",
-      "prices_by_year": {
-        "2018": "$25,000",
-        "2020": "$27,000",
-        "2022": "$29,000",
-        "2024": "$31,000"
-      }
+      "model": "LX2004"
     }
   ],
-  "zaz_models": [
+  "zaz": [
     {
-      "model": "Zaporozhets 965",
-      "prices_by_year": {
-        "1960": "$1,000",
-        "1963": "$1,200",
-        "1966": "$1,400",
-        "1969": "$1,600"
-      }
+      "model": "Zaporozhets 965"
     },
     {
-      "model": "Zaporozhets 966/968",
-      "prices_by_year": {
-        "1966": "$1,500",
-        "1970": "$1,700",
-        "1975": "$1,900",
-        "1979": "$2,100"
-      }
+      "model": "Zaporozhets 966/968"
     },
     {
-      "model": "Tavria (1102)",
-      "prices_by_year": {
-        "1987": "$3,000",
-        "1992": "$3,500",
-        "1997": "$4,000",
-        "2002": "$4,500",
-        "2007": "$5,000"
-      }
+      "model": "Tavria (1102)"
     },
     {
-      "model": "Slavuta (1103)",
-      "prices_by_year": {
-        "1999": "$4,000",
-        "2003": "$4,500",
-        "2008": "$5,000",
-        "2011": "$5,500"
-      }
+      "model": "Slavuta (1103)"
     },
     {
-      "model": "Lanos (Chance)",
-      "prices_by_year": {
-        "2002": "$6,000",
-        "2007": "$7,000",
-        "2012": "$8,000",
-        "2017": "$9,000"
-      }
+      "model": "Lanos (Chance)"
     },
     {
-      "model": "Forza",
-      "prices_by_year": {
-        "2011": "$8,000",
-        "2014": "$9,000",
-        "2016": "$10,000"
-      }
+      "model": "Forza"
     },
     {
-      "model": "Vida",
-      "prices_by_year": {
-        "2012": "$8,500",
-        "2015": "$9,500",
-        "2017": "$10,500"
-      }
+      "model": "Vida"
     },
     {
-      "model": "Sens",
-      "prices_by_year": {
-        "2002": "$5,500",
-        "2007": "$6,500",
-        "2012": "$7,500",
-        "2017": "$8,500"
-      }
+      "model": "Sens"
     }
   ],
-  "zeekr_models": [
+  "zeekr": [
     {
-      "model": "001",
-      "prices_by_year": {
-        "2021": "$43,000",
-        "2022": "$44,000",
-        "2023": "$45,000",
-        "2024": "$46,000"
-      }
+      "model": "001"
     },
     {
-      "model": "009",
-      "prices_by_year": {
-        "2022": "$68,000",
-        "2023": "$69,000",
-        "2024": "$70,000"
-      }
+      "model": "009"
     },
     {
-      "model": "X",
-      "prices_by_year": {
-        "2023": "$37,000",
-        "2024": "$38,000"
-      }
+      "model": "X"
     },
     {
-      "model": "007",
-      "prices_by_year": {
-        "2023": "$42,000",
-        "2024": "$43,000"
-      }
+      "model": "007"
     }
   ]
 }
