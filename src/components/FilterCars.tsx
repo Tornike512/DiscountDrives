@@ -1,6 +1,7 @@
 "use client";
 
-import { ChangeEvent, FormEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useContext, useState } from "react";
+import { GlobalContext } from "@/context";
 import { nanoid } from "nanoid";
 
 import manufacturersData from "@/data/carManufacturers.json";
@@ -18,6 +19,8 @@ interface ModelsData {
 }
 
 export default function FilterCars() {
+  const { filterByPrice, filterByYear } = useContext(GlobalContext);
+
   const [selectedManufacturer, setSelectedManufacturer] = useState("");
   const [selectModel, setSelectModel] = useState("");
 
@@ -72,8 +75,8 @@ export default function FilterCars() {
               )
             )}
         </select>
-        <CustomFilter filterType="Year" />
-        <CustomFilter filterType="Price" />
+        <CustomFilter id="year-filter" filterBy={filterByYear} />
+        <CustomFilter id="price-filter" filterBy={filterByPrice} />
       </form>
       <button className="search-car">Search</button>
     </div>
