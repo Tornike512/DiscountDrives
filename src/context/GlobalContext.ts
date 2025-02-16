@@ -1,6 +1,15 @@
 "use client";
 import { createContext, Dispatch, SetStateAction } from "react";
 
+export interface IFilter {
+  manufacturer: string;
+  model: string;
+  startPrice: number;
+  endPrice: number;
+  startYear: number;
+  endYear: number;
+}
+
 export interface IGlobalContext {
   currentSort: string;
   setCurrentSort: Dispatch<SetStateAction<string>>;
@@ -14,18 +23,20 @@ export interface IGlobalContext {
   setFromInput: Dispatch<SetStateAction<string>>;
   toInput: string;
   setToInput: Dispatch<SetStateAction<string>>;
-  yearFromInput: string;
-  setYearFromInput: Dispatch<SetStateAction<string>>;
-  yearToInput: string;
-  setYearToInput: Dispatch<SetStateAction<string>>;
-  priceFromInput: string;
-  setPriceFromInput: Dispatch<SetStateAction<string>>;
-  priceToInput: string;
-  setPriceToInput: Dispatch<SetStateAction<string>>;
+  yearFromInput: number;
+  setYearFromInput: Dispatch<SetStateAction<number>>;
+  yearToInput: number;
+  setYearToInput: Dispatch<SetStateAction<number>>;
+  priceFromInput: number;
+  setPriceFromInput: Dispatch<SetStateAction<number>>;
+  priceToInput: number;
+  setPriceToInput: Dispatch<SetStateAction<number>>;
   filterByYear: string[];
   setFilterByYear: Dispatch<SetStateAction<string[]>>;
   filterByPrice: string[];
   setFilterByPrice: Dispatch<SetStateAction<string[]>>;
+  filterKey: IFilter;
+  setFilterKey: Dispatch<SetStateAction<IFilter>>;
 }
 
 export const GlobalContext = createContext<IGlobalContext>({
@@ -41,16 +52,25 @@ export const GlobalContext = createContext<IGlobalContext>({
   setFromInput: () => {},
   toInput: "",
   setToInput: () => {},
-  yearFromInput: "",
+  yearFromInput: 0,
   setYearFromInput: () => {},
-  yearToInput: "",
+  yearToInput: new Date().getFullYear(),
   setYearToInput: () => {},
-  priceFromInput: "",
+  priceFromInput: 0,
   setPriceFromInput: () => {},
-  priceToInput: "",
+  priceToInput: 10000,
   setPriceToInput: () => {},
   filterByYear: ["Year"],
   setFilterByYear: () => {},
   filterByPrice: ["Price"],
   setFilterByPrice: () => {},
+  filterKey: {
+    manufacturer: "",
+    model: "",
+    startPrice: 0,
+    endPrice: 10000,
+    startYear: 0,
+    endYear: new Date().getFullYear(),
+  },
+  setFilterKey: () => {},
 });

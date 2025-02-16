@@ -22,9 +22,7 @@ export default function CustomFilter({
     setPriceFromInput,
     priceToInput,
     setPriceToInput,
-    filterByYear,
     setFilterByYear,
-    filterByPrice,
     setFilterByPrice,
   } = useContext(GlobalContext);
 

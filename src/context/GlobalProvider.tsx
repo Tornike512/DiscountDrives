@@ -3,6 +3,7 @@
 import { GlobalContext } from "./GlobalContext";
 import { PropsWithChildren } from "react";
 import { useState } from "react";
+import { IFilter } from "./GlobalContext";
 
 export const GlobalProvider = ({ children }: PropsWithChildren) => {
   const [currentSort, setCurrentSort] = useState<string>("");
@@ -13,10 +14,18 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
   const [toInput, setToInput] = useState<string>("");
   const [filterByYear, setFilterByYear] = useState<string[]>(["Year"]);
   const [filterByPrice, setFilterByPrice] = useState<string[]>(["Price"]);
-  const [yearFromInput, setYearFromInput] = useState("");
-  const [yearToInput, setYearToInput] = useState("");
-  const [priceFromInput, setPriceFromInput] = useState("");
-  const [priceToInput, setPriceToInput] = useState("");
+  const [yearFromInput, setYearFromInput] = useState<number>(0);
+  const [yearToInput, setYearToInput] = useState(new Date().getFullYear());
+  const [priceFromInput, setPriceFromInput] = useState(0);
+  const [priceToInput, setPriceToInput] = useState(10000);
+  const [filterKey, setFilterKey] = useState<IFilter>({
+    manufacturer: "",
+    model: "",
+    startPrice: 0,
+    endPrice: 10000,
+    startYear: 0,
+    endYear: new Date().getFullYear(),
+  });
 
   return (
     <GlobalContext.Provider
@@ -45,6 +54,8 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
         setPriceFromInput,
         priceToInput,
         setPriceToInput,
+        filterKey,
+        setFilterKey,
       }}
     >
       {children}

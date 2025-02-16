@@ -9,7 +9,7 @@ import Loader from "./Loader";
 export default function CarsGrid() {
   const { cars, isLoading } = useGetCars();
 
-  const { currentSort } = useContext(GlobalContext);
+  const { currentSort, filterKey } = useContext(GlobalContext);
 
   const sortCars = () => {
     if (currentSort === "ascending") {
@@ -37,11 +37,35 @@ export default function CarsGrid() {
     return cars;
   };
 
+  const filteredCars = sortCars().filter((car) => {
+    // return (
+    //   (car.carModel
+    //     .toLowerCase()
+    //     .includes(filterKey.manufacturer.toLowerCase()) &&
+    //     car.carModel.toLowerCase().includes(filterKey.model.toLowerCase())) ||
+    //   Number(filterKey.startPrice) <= Number(car.carPrice.replace(/,/g, "")) ||
+    //   Number(filterKey.endPrice) >= Number(car.carPrice.replace(/,/g, "")) ||
+    //   Number(filterKey.startYear) <= Number(car.carYear.replace(/,/g, "")) ||
+    //   Number(filterKey.startYear) <= Number(car.carYear.replace(/,/g, ""))
+    // );
+
+    return (
+      Number(filterKey.startYear) <= Number(car.carYear.replace(/წ/g, "")) &&
+      Number(filterKey.endYear) >= Number(car.carYear.replace(/წ/g, "")) &&
+      Number(filterKey.startPrice) <= Number(car.carPrice.replace(/,/g, "")) &&
+      Number(filterKey.endPrice) >= Number(car.carPrice.replace(/,/g, "")) &&
+      car.carModel
+        .toLowerCase()
+        .includes(filterKey.manufacturer.toLowerCase()) &&
+      car.carModel.toLowerCase().includes(filterKey.model.toLowerCase())
+    );
+  });
+
   if (isLoading) return <Loader />;
 
   return (
     <section className="main-grid">
-      {sortCars().map((car: ICars) => {
+      {filteredCars.map((car: ICars) => {
         return (
           <GridItem
             carImage={car.carImage}

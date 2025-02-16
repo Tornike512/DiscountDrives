@@ -19,7 +19,16 @@ interface ModelsData {
 }
 
 export default function FilterCars() {
-  const { filterByPrice, filterByYear } = useContext(GlobalContext);
+  const {
+    filterByPrice,
+    filterByYear,
+    yearFromInput,
+    yearToInput,
+    priceFromInput,
+    priceToInput,
+    setFilterKey,
+    filterKey,
+  } = useContext(GlobalContext);
 
   const [selectedManufacturer, setSelectedManufacturer] = useState("");
   const [selectModel, setSelectModel] = useState("");
@@ -36,9 +45,20 @@ export default function FilterCars() {
     setSelectModel(e.target.value);
   };
 
+  const handleSearchButton = () => {
+    setFilterKey({
+      manufacturer: selectedManufacturer,
+      model: selectModel,
+      startYear: yearFromInput,
+      endYear: yearToInput,
+      startPrice: priceFromInput,
+      endPrice: priceToInput,
+    });
+  };
+
   return (
     <div className="filter-container">
-      <form onClick={handleForm} className="filter-form">
+      <form onSubmit={handleForm} className="filter-form">
         <select
           onChange={handleManufacturerOption}
           className="manufacturer-select"
@@ -76,9 +96,11 @@ export default function FilterCars() {
             )}
         </select>
         <CustomFilter id="year-filter" filterBy={filterByYear} />
-        <CustomFilter id="price-filter" filterBy={filterByPrice} />
+        <CustomFilter id="price-filter" filterBy={filterByPrice} />{" "}
+        <button onClick={handleSearchButton} className="search-car">
+          Search
+        </button>
       </form>
-      <button className="search-car">Search</button>
     </div>
   );
 }
