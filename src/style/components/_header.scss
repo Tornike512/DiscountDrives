@@ -48,6 +48,10 @@
       &:hover {
         background-color: #019fdcc2;
       }
+
+      @include sm {
+        display: none;
+      }
     }
 
     .about-us,

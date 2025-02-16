@@ -1,26 +1,54 @@
-.select {
-  margin-bottom: 30px;
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #dedede;
-  box-shadow: -1px 5px 4px #ececec;
-  appearance: none;
-  background-image: url("../../../public/Images/select-dropdown.png");
-  background-repeat: no-repeat;
-  background-position: right 10px center;
-  background-size: 10px 10px;
-  padding-right: 25px;
-  -moz-border-radius: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  cursor: pointer;
+@import "../sass/breakPoints";
 
-  &:focus {
-    outline: none;
+.sort-wrapper {
+  display: flex;
+
+  .select {
+    margin-bottom: 30px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #dedede;
+    box-shadow: -1px 5px 4px #ececec;
+    appearance: none;
+    background-image: url("../../../public/Images/select-dropdown.png");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px 10px;
+    padding-right: 25px;
+    -moz-border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      border-color: #bbb;
+    }
   }
 
-  &:hover {
-    border-color: #bbb;
+  .responsive-filter-button {
+    width: 144px;
+    height: 37px;
+    display: none;
+    padding: 10px;
+    border: 1px solid #dedede;
+    border-radius: 6px;
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: -1px 5px 4px #ececec;
+    cursor: pointer;
+
+    &:hover {
+      border-color: #bbb;
+    }
+
+    @include lg {
+      display: flex;
+    }
   }
 }

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <GlobalProvider>
       <FilterCars />
-      <div>
+      <div className="main-wrapper">
         <Sort />
         <MainNote />
         <CarsGrid />

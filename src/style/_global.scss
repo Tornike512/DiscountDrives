@@ -26,9 +26,11 @@ main {
   width: 100%;
   margin-top: 130px;
   display: flex;
+  padding: 0 40px;
 }
 
 .main-grid {
+  width: fit-content;
   max-width: 1920px;
   display: grid;
   margin-bottom: 30px;
@@ -36,6 +38,10 @@ main {
   place-items: center;
   row-gap: 20px;
   column-gap: 20px;
+
+  @include xl {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
   @include lg {
     grid-template-columns: 1fr 1fr 1fr;
@@ -48,4 +54,10 @@ main {
   @include sm {
     grid-template-columns: 1fr;
   }
+}
+
+.main-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
