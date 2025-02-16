@@ -1,3 +1,5 @@
+@import "../sass/breakPoints";
+
 .loader {
   width: 50px;
   --b: 8px;
@@ -20,7 +22,17 @@
   position: absolute;
   left: 62%;
   top: 47%;
+
+  @include lg {
+    left: 48%;
+  }
+
+  @include sm {
+    left: 45%;
+    top: 60%;
+  }
 }
+
 @keyframes l5 {
   to {
     transform: rotate(0.5turn);

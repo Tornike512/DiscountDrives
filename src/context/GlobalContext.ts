@@ -23,20 +23,22 @@ export interface IGlobalContext {
   setFromInput: Dispatch<SetStateAction<string>>;
   toInput: string;
   setToInput: Dispatch<SetStateAction<string>>;
-  yearFromInput: number;
-  setYearFromInput: Dispatch<SetStateAction<number>>;
-  yearToInput: number;
-  setYearToInput: Dispatch<SetStateAction<number>>;
-  priceFromInput: number;
-  setPriceFromInput: Dispatch<SetStateAction<number>>;
-  priceToInput: number;
-  setPriceToInput: Dispatch<SetStateAction<number>>;
-  filterByYear: string[];
-  setFilterByYear: Dispatch<SetStateAction<string[]>>;
-  filterByPrice: string[];
-  setFilterByPrice: Dispatch<SetStateAction<string[]>>;
+  yearFromInput: any;
+  setYearFromInput: Dispatch<SetStateAction<any>>;
+  yearToInput: any;
+  setYearToInput: Dispatch<SetStateAction<any>>;
+  priceFromInput: any;
+  setPriceFromInput: Dispatch<SetStateAction<any>>;
+  priceToInput: any;
+  setPriceToInput: Dispatch<SetStateAction<any>>;
+  filterByYear: string[] | number[];
+  setFilterByYear: Dispatch<SetStateAction<string[] | number[]>>;
+  filterByPrice: string[] | number[];
+  setFilterByPrice: Dispatch<SetStateAction<string[] | number[]>>;
   filterKey: IFilter;
   setFilterKey: Dispatch<SetStateAction<IFilter>>;
+  showSidebar: boolean;
+  setShowSidebar: Dispatch<SetStateAction<boolean>>;
 }
 
 export const GlobalContext = createContext<IGlobalContext>({
@@ -73,4 +75,6 @@ export const GlobalContext = createContext<IGlobalContext>({
     endYear: new Date().getFullYear(),
   },
   setFilterKey: () => {},
+  showSidebar: false,
+  setShowSidebar: () => {},
 });

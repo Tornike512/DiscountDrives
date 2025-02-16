@@ -1,6 +1,8 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { GlobalContext } from "@/context";
+import { useContext } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -12,6 +14,12 @@ import telegramIcon from "../../public/Images/telegram-icon.png";
 import "@/style/components/_header.scss";
 
 export default function Header() {
+  const { setShowSidebar, showSidebar } = useContext(GlobalContext);
+
+  const handleShowSidebar = () => {
+    setShowSidebar(true);
+  };
+
   const router = useRouter();
 
   const handleAboutUsClick = () => {
@@ -39,6 +47,7 @@ export default function Header() {
         </button>
       </div>
       <Image
+        onClick={handleShowSidebar}
         className="menu-icon"
         src={menuIcon}
         width={40}

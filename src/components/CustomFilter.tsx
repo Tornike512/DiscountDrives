@@ -26,7 +26,6 @@ export default function CustomFilter({
     setFilterByPrice,
   } = useContext(GlobalContext);
 
-  const [select, setSelect] = useState<boolean>(false);
   const [openCustomFilter, setOpenCustomFilter] = useState<boolean>(false);
 
   useEffect(() => {
@@ -41,7 +40,6 @@ export default function CustomFilter({
   };
 
   const handleSelectButton = () => {
-    setSelect(true);
     setOpenCustomFilter(false);
     setShowFilterModal(false);
 

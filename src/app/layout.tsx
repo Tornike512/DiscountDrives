@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import { GlobalProvider } from "@/context";
 
 import "@/style/_global.scss";
 
@@ -13,8 +14,10 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body>
-        <Header />
-        <main>{children}</main>
+        <GlobalProvider>
+          <Header />
+          <main>{children}</main>
+        </GlobalProvider>
       </body>
     </html>
   );
