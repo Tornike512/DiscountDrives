@@ -12,16 +12,18 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
   const [price, setPrice] = useState<string>("Price");
   const [fromInput, setFromInput] = useState<string>("");
   const [toInput, setToInput] = useState<string>("");
-  const [filterByYear, setFilterByYear] = useState<string[] | number[]>([
+  const [filterByYear, setFilterByYear] = useState<(string | number)[]>([
     "Year",
   ]);
-  const [filterByPrice, setFilterByPrice] = useState<string[] | number[]>([
+  const [filterByPrice, setFilterByPrice] = useState<(string | number)[]>([
     "Price",
   ]);
-  const [yearFromInput, setYearFromInput] = useState<any>(0);
-  const [yearToInput, setYearToInput] = useState<any>(new Date().getFullYear());
-  const [priceFromInput, setPriceFromInput] = useState<any>(0);
-  const [priceToInput, setPriceToInput] = useState<any>(10000);
+  const [yearFromInput, setYearFromInput] = useState<number | string>(0);
+  const [yearToInput, setYearToInput] = useState<number | string>(
+    new Date().getFullYear()
+  );
+  const [priceFromInput, setPriceFromInput] = useState<number | string>(0);
+  const [priceToInput, setPriceToInput] = useState<number | string>(10000);
   const [filterKey, setFilterKey] = useState<IFilter>({
     manufacturer: "",
     model: "",

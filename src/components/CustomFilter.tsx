@@ -8,7 +8,7 @@ export default function CustomFilter({
   filterBy,
   id,
 }: {
-  filterBy: string[];
+  filterBy: (string | number)[];
   id: string;
 }) {
   const {

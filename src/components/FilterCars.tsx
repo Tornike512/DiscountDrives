@@ -27,7 +27,6 @@ export default function FilterCars() {
     priceFromInput,
     priceToInput,
     setFilterKey,
-    filterKey,
   } = useContext(GlobalContext);
 
   const [selectedManufacturer, setSelectedManufacturer] = useState("");
@@ -96,7 +95,7 @@ export default function FilterCars() {
             )}
         </select>
         <CustomFilter id="year-filter" filterBy={filterByYear} />
-        <CustomFilter id="price-filter" filterBy={filterByPrice} />{" "}
+        <CustomFilter id="price-filter" filterBy={filterByPrice} />
         <button onClick={handleSearchButton} className="search-car">
           Search
         </button>

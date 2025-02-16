@@ -4,10 +4,10 @@ import { createContext, Dispatch, SetStateAction } from "react";
 export interface IFilter {
   manufacturer: string;
   model: string;
-  startPrice: number;
-  endPrice: number;
-  startYear: number;
-  endYear: number;
+  startPrice: number | string;
+  endPrice: number | string;
+  startYear: number | string;
+  endYear: number | string;
 }
 
 export interface IGlobalContext {
@@ -23,18 +23,18 @@ export interface IGlobalContext {
   setFromInput: Dispatch<SetStateAction<string>>;
   toInput: string;
   setToInput: Dispatch<SetStateAction<string>>;
-  yearFromInput: any;
-  setYearFromInput: Dispatch<SetStateAction<any>>;
-  yearToInput: any;
-  setYearToInput: Dispatch<SetStateAction<any>>;
-  priceFromInput: any;
-  setPriceFromInput: Dispatch<SetStateAction<any>>;
-  priceToInput: any;
-  setPriceToInput: Dispatch<SetStateAction<any>>;
-  filterByYear: string[] | number[];
-  setFilterByYear: Dispatch<SetStateAction<string[] | number[]>>;
-  filterByPrice: string[] | number[];
-  setFilterByPrice: Dispatch<SetStateAction<string[] | number[]>>;
+  yearFromInput: number | string;
+  setYearFromInput: Dispatch<SetStateAction<number | string>>;
+  yearToInput: number | string;
+  setYearToInput: Dispatch<SetStateAction<number | string>>;
+  priceFromInput: number | string;
+  setPriceFromInput: Dispatch<SetStateAction<number | string>>;
+  priceToInput: number | string;
+  setPriceToInput: Dispatch<SetStateAction<number | string>>;
+  filterByYear: (string | number)[];
+  setFilterByYear: Dispatch<SetStateAction<(string | number)[]>>;
+  filterByPrice: (string | number)[];
+  setFilterByPrice: Dispatch<SetStateAction<(string | number)[]>>;
   filterKey: IFilter;
   setFilterKey: Dispatch<SetStateAction<IFilter>>;
   showSidebar: boolean;
