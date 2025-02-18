@@ -1,3 +1,5 @@
+@import "../sass/breakPoints";
+
 .grid-item {
   background-color: rgb(255, 255, 255);
   width: 200px;
@@ -9,6 +11,11 @@
   transition: transform 0.2s ease;
   box-shadow: -3px 2px 9px #a7a7a7;
   text-decoration: none;
+
+  @include sm {
+    width: 100%;
+    height: auto;
+  }
 
   .car-image-wrapper {
     width: 100%;
