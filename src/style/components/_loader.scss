@@ -20,16 +20,17 @@
   mask-composite: intersect;
   animation: l5 1s infinite;
   position: absolute;
-  left: 62%;
+  left: 47%;
   top: 47%;
 
   @include lg {
     left: 48%;
+    top: 87%;
   }
 
   @include sm {
     left: 45%;
-    top: 60%;
+    top: 87%;
   }
 }
 

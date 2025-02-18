@@ -2,6 +2,7 @@
 
 import { useReducer } from "react";
 import { nanoid } from "nanoid";
+import { useGetCars } from "@/hooks/useGetCars";
 
 import Image, { StaticImageData } from "next/image";
 
@@ -50,6 +51,10 @@ export default function Pagination() {
   const pages = ["1", "2", "...", "9", "10"];
 
   const [state, dispatch] = useReducer(changeArrow, initialState);
+
+  const { isLoading } = useGetCars();
+
+  if (isLoading) return;
 
   return (
     <div className="pagination-container">
