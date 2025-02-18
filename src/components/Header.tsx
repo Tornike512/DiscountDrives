@@ -33,7 +33,7 @@ export default function Header() {
       </Link>
       <div className="header-buttons-wrapper">
         <Link
-          href="https://t.me/CheapCarsBot"
+          href="https://t.me/+bK8YH2frmcc5NmRi"
           target="_blank"
           className="join-telegram"
         >
