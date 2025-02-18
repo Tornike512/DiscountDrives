@@ -27,7 +27,7 @@ export default function Sidebar() {
       {showSidebar && (
         <div className="sidebar-container">
           <Link
-            href="https://t.me/CheapCarsBot"
+            href="https://t.me/+bK8YH2frmcc5NmRi"
             target="_blank"
             className="join-telegram"
           >
