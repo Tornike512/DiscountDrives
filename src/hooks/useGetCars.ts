@@ -17,9 +17,7 @@ export const useGetCars = () => {
 
   const getCars = async () => {
     try {
-      const response = await axios.get(
-        "https://discountdrives-backend.onrender.com"
-      );
+      const response = await axios.get("http://localhost:5000");
       setCars(response.data.cars);
     } catch (error) {
       console.log("Error fetching cars", error);

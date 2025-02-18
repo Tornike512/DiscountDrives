@@ -3,6 +3,7 @@ import MainNote from "@/components/MainNote";
 import Sort from "@/components/Sort";
 import FilterCars from "@/components/FilterCars";
 import Sidebar from "@/components/Sidebar";
+import Pagination from "@/components/Pagination";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <MainNote />
         <CarsGrid />
         <Sidebar />
+        <Pagination />
       </div>
     </>
   );
