@@ -1,8 +1,11 @@
 "use client";
 
-import { useReducer } from "react";
+import { useContext, useEffect, useReducer, useState } from "react";
 import { nanoid } from "nanoid";
 import { useGetCars } from "@/hooks/useGetCars";
+import { useGetPagesLength } from "@/hooks/useGetPagesLength";
+import { pagesCount } from "@/utils/pagesCount";
+import { GlobalContext } from "@/context";
 
 import Image, { StaticImageData } from "next/image";
 
@@ -48,11 +51,44 @@ const initialState: TCounterState = {
 };
 
 export default function Pagination() {
-  const pages = ["1", "2", "...", "9", "10"];
+  const [currentPage, setCurrentPage] = useState<string>("1");
+
+  const { changePage, setChangePage } = useContext(GlobalContext);
 
   const [state, dispatch] = useReducer(changeArrow, initialState);
 
   const { isLoading } = useGetCars();
+  const { pagesLengthCount } = useGetPagesLength();
+
+  const handleNextPage = () => {
+    setChangePage({
+      firstCar: changePage.firstCar + 20,
+      lastCar: 20,
+    });
+
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const handlePreviousPage = () => {
+    setChangePage({
+      firstCar: changePage.firstCar - 20,
+      lastCar: 20,
+    });
+
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const handleCurrentPage = (page: string) => {
+    if (page !== "...") {
+      setCurrentPage(page);
+    }
+  };
 
   if (isLoading) return;
 
@@ -61,6 +97,7 @@ export default function Pagination() {
       <button
         onMouseOver={() => dispatch({ type: "HOVER_LEFT" })}
         onMouseLeave={() => dispatch({ type: "UNHOVER_LEFT" })}
+        onClick={handlePreviousPage}
         className="left-arrow"
       >
         <Image
@@ -69,7 +106,7 @@ export default function Pagination() {
           alt="Left Arrow"
         />
       </button>
-      {pages.map((page) => {
+      {pagesCount(pagesLengthCount).map((page) => {
         return (
           <button key={nanoid()} className="page">
             {page}
@@ -80,6 +117,7 @@ export default function Pagination() {
         onMouseOver={() => dispatch({ type: "HOVER_RIGHT" })}
         onMouseLeave={() => dispatch({ type: "UNHOVER_RIGHT" })}
         className="right-arrow"
+        onClick={handleNextPage}
       >
         <Image
           className="right-arrow-image"

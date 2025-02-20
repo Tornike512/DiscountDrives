@@ -33,6 +33,10 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
     endYear: new Date().getFullYear(),
   });
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
+  const [changePage, setChangePage] = useState<{
+    firstCar: number;
+    lastCar: number;
+  }>({ firstCar: 0, lastCar: 20 });
 
   return (
     <GlobalContext.Provider
@@ -65,6 +69,8 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
         setFilterKey,
         showSidebar,
         setShowSidebar,
+        changePage,
+        setChangePage,
       }}
     >
       {children}

@@ -1,6 +1,8 @@
 "use client";
 import axios from "axios";
-import { useState, useEffect } from "react";
+
+import { GlobalContext } from "@/context";
+import { useState, useEffect, useContext } from "react";
 
 export interface ICars {
   carModel: string;
@@ -14,11 +16,19 @@ export interface ICars {
 export const useGetCars = () => {
   const [cars, setCars] = useState<ICars[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
+  const { changePage, setChangePage } = useContext(GlobalContext);
 
-  const getCars = async () => {
+  const getCars = async (signal?: AbortSignal) => {
     try {
       const response = await axios.get(
-        "https://discountdrives-backend.onrender.com"
+        "https://discountdrives-backend-1.onrender.com",
+        {
+          params: {
+            firstCar: changePage.firstCar,
+            lastCar: changePage.lastCar,
+          },
+          signal,
+        }
       );
       setCars(response.data.cars);
     } catch (error) {
@@ -29,12 +39,24 @@ export const useGetCars = () => {
   };
 
   useEffect(() => {
-    getCars();
+    if (changePage.firstCar < 0) {
+      setChangePage({ firstCar: 0, lastCar: 20 });
+    }
+    const controller = new AbortController();
 
-    const intervalId = setInterval(getCars, 30000);
+    getCars(controller.signal);
 
-    return () => clearInterval(intervalId);
-  }, []);
+    const intervalId = setInterval(() => {
+      const controller = new AbortController();
+
+      getCars(controller.signal);
+    }, 30000);
+
+    return () => {
+      clearInterval(intervalId);
+      controller.abort;
+    };
+  }, [changePage]);
 
   return { cars, isLoading };
 };
