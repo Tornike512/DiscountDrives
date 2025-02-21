@@ -54,7 +54,7 @@ export const useGetCars = () => {
 
     return () => {
       clearInterval(intervalId);
-      controller.abort;
+      controller.abort();
     };
   }, [changePage]);
 
