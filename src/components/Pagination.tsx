@@ -1,6 +1,6 @@
 "use client";
 
-import { useContext, useEffect, useReducer, useState } from "react";
+import { useContext, useReducer, useState } from "react";
 import { nanoid } from "nanoid";
 import { useGetCars } from "@/hooks/useGetCars";
 import { useGetPagesLength } from "@/hooks/useGetPagesLength";
@@ -61,6 +61,7 @@ export default function Pagination() {
   const { pagesLengthCount } = useGetPagesLength();
 
   const handleNextPage = () => {
+    setCurrentPage(currentPage + 1);
     setChangePage({
       firstCar: changePage.firstCar + 20,
       lastCar: 20,
@@ -73,6 +74,8 @@ export default function Pagination() {
   };
 
   const handlePreviousPage = () => {
+    setCurrentPage(currentPage - 1);
+
     setChangePage({
       firstCar: changePage.firstCar - 20,
       lastCar: 20,
@@ -98,6 +101,7 @@ export default function Pagination() {
         onMouseOver={() => dispatch({ type: "HOVER_LEFT" })}
         onMouseLeave={() => dispatch({ type: "UNHOVER_LEFT" })}
         onClick={handlePreviousPage}
+        disabled={currentPage === 1}
         className="left-arrow"
       >
         <Image
@@ -122,6 +126,7 @@ export default function Pagination() {
         onMouseLeave={() => dispatch({ type: "UNHOVER_RIGHT" })}
         className="right-arrow"
         onClick={handleNextPage}
+        disabled={pagesCount(pagesLengthCount).length === currentPage}
       >
         <Image
           className="right-arrow-image"
