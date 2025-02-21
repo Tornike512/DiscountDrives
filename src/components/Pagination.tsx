@@ -51,7 +51,7 @@ const initialState: TCounterState = {
 };
 
 export default function Pagination() {
-  const [currentPage, setCurrentPage] = useState<string>("1");
+  const [currentPage, setCurrentPage] = useState<number>(1);
 
   const { changePage, setChangePage } = useContext(GlobalContext);
 
@@ -84,10 +84,10 @@ export default function Pagination() {
     });
   };
 
-  const handleCurrentPage = (page: string) => {
-    if (page !== "...") {
-      setCurrentPage(page);
-    }
+  const handleCurrentPage = (page: number) => {
+    setCurrentPage(page);
+    setChangePage({ firstCar: page * 20 - 20, lastCar: 20 });
+    window.scrollTo({ behavior: "smooth", top: 0 });
   };
 
   if (isLoading) return;
@@ -108,7 +108,11 @@ export default function Pagination() {
       </button>
       {pagesCount(pagesLengthCount).map((page) => {
         return (
-          <button key={nanoid()} className="page">
+          <button
+            onClick={() => handleCurrentPage(page)}
+            key={nanoid()}
+            className={`page ${currentPage === page ? "active" : ""}`}
+          >
             {page}
           </button>
         );
