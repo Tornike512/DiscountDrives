@@ -61,30 +61,35 @@ export default function Pagination() {
   const { pagesLengthCount } = useGetPagesLength();
 
   const handleNextPage = () => {
-    setCurrentPage(currentPage + 1);
-    setChangePage({
-      firstCar: changePage.firstCar + 20,
-      lastCar: 20,
-    });
-
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
+
+    setTimeout(() => {
+      setCurrentPage(currentPage + 1);
+    }, 1000);
+    setChangePage({
+      firstCar: changePage.firstCar + 20,
+      lastCar: 20,
+    });
   };
 
   const handlePreviousPage = () => {
-    setCurrentPage(currentPage - 1);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+
+    setTimeout(() => {
+      setCurrentPage(currentPage - 1);
+    }, 1000);
 
     setChangePage({
       firstCar: changePage.firstCar - 20,
       lastCar: 20,
     });
-
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    console.log("previous page clicked");
   };
 
   const handleCurrentPage = (page: number) => {
