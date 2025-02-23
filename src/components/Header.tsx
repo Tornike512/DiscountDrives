@@ -28,7 +28,7 @@ export default function Header() {
 
   return (
     <header className="header">
-      <Link href="/">
+      <Link href="/home-page">
         <Image className="logo" src={Logo} alt="Logo" height={60} width={70} />
       </Link>
       <div className="header-buttons-wrapper">

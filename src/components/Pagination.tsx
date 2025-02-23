@@ -6,6 +6,7 @@ import { useGetCars } from "@/hooks/useGetCars";
 import { useGetPagesLength } from "@/hooks/useGetPagesLength";
 import { pagesCount } from "@/utils/pagesCount";
 import { GlobalContext } from "@/context";
+import { useRouter } from "next/navigation";
 
 import Image, { StaticImageData } from "next/image";
 
@@ -60,15 +61,20 @@ export default function Pagination() {
   const { isLoading } = useGetCars();
   const { pagesLengthCount } = useGetPagesLength();
 
+  const router = useRouter();
+
   const handleNextPage = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
 
+    const nextPage = currentPage + 1;
+
     setTimeout(() => {
-      setCurrentPage(currentPage + 1);
+      setCurrentPage(nextPage);
     }, 1000);
+
     setChangePage({
       firstCar: changePage.firstCar + 20,
       lastCar: 20,

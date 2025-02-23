@@ -19,8 +19,8 @@ export default function Sort() {
         <option value="default" hidden>
           Sort
         </option>
-        <option value="descending">Alphabetical (A-Z)</option>
-        <option value="ascending">Alphabetical (Z-A)</option>
+        <option value="ascending">Alphabetical (A-Z)</option>
+        <option value="descending">Alphabetical (Z-A)</option>
         <option value="low-to-high">Lowest to Highest</option>
         <option value="high-to-low">Highest to Lowest</option>
       </select>
