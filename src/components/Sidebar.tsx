@@ -22,6 +22,8 @@ export default function Sidebar() {
     setShowSidebar(false);
   };
 
+  console.log(showSidebar);
+
   return (
     <>
       {showSidebar && (

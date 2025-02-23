@@ -53,7 +53,8 @@ const initialState: TCounterState = {
 export default function Pagination() {
   const [currentPage, setCurrentPage] = useState<number>(1);
 
-  const { changePage, setChangePage } = useContext(GlobalContext);
+  const { changePage, setChangePage, showFullScreenFilter } =
+    useContext(GlobalContext);
 
   const [state, dispatch] = useReducer(changeArrow, initialState);
 
@@ -104,7 +105,11 @@ export default function Pagination() {
   if (isLoading) return;
 
   return (
-    <div className="pagination-container">
+    <div
+      className={`pagination-container ${
+        showFullScreenFilter ? "show-full-screen-filter" : ""
+      }`}
+    >
       <button
         onMouseOver={() => dispatch({ type: "HOVER_LEFT" })}
         onMouseLeave={() => dispatch({ type: "UNHOVER_LEFT" })}

@@ -3,6 +3,18 @@ import { GlobalProvider } from "@/context";
 
 import "@/style/_global.scss";
 
+export const metadata = {
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -10,9 +22,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
       <body>
         <GlobalProvider>
           <Header />
