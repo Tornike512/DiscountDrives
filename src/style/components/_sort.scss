@@ -4,6 +4,10 @@
   display: flex;
   margin-top: 67.5px;
 
+  &.show-full-screen-filter {
+    display: none;
+  }
+
   .select {
     position: absolute;
     top: 0;

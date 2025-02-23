@@ -6,7 +6,8 @@ import { GlobalContext } from "@/context";
 import "@/style/components/_sort.scss";
 
 export default function Sort() {
-  const { setCurrentSort, setShowFullScreenFilter } = useContext(GlobalContext);
+  const { setCurrentSort, showFullScreenFilter, setShowFullScreenFilter } =
+    useContext(GlobalContext);
 
   const handleOptions = (e: ChangeEvent<HTMLSelectElement>) => {
     const optionValue = e.target.value;
@@ -18,7 +19,11 @@ export default function Sort() {
   };
 
   return (
-    <div className="sort-wrapper">
+    <div
+      className={`sort-wrapper ${
+        showFullScreenFilter ? "show-full-screen-filter" : ""
+      }`}
+    >
       <select onChange={handleOptions} defaultValue="" className="select">
         <option value="default" hidden>
           Sort
