@@ -37,6 +37,8 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
     firstCar: number;
     lastCar: number;
   }>({ firstCar: 0, lastCar: 20 });
+  const [showFullScreenFilter, setShowFullScreenFilter] =
+    useState<boolean>(false);
 
   return (
     <GlobalContext.Provider
@@ -71,6 +73,8 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
         setShowSidebar,
         changePage,
         setChangePage,
+        showFullScreenFilter,
+        setShowFullScreenFilter,
       }}
     >
       {children}

@@ -27,6 +27,8 @@ export default function FilterCars() {
     priceFromInput,
     priceToInput,
     setFilterKey,
+    showFullScreenFilter,
+    setShowFullScreenFilter,
   } = useContext(GlobalContext);
 
   const [selectedManufacturer, setSelectedManufacturer] = useState("");
@@ -53,10 +55,16 @@ export default function FilterCars() {
       startPrice: priceFromInput,
       endPrice: priceToInput,
     });
+
+    setShowFullScreenFilter(false);
   };
 
   return (
-    <div className="filter-container">
+    <div
+      className={`filter-container ${
+        showFullScreenFilter ? `show-full-screen` : ""
+      }`}
+    >
       <form onSubmit={handleForm} className="filter-form">
         <select
           onChange={handleManufacturerOption}

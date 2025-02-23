@@ -9,7 +9,8 @@ import Loader from "./Loader";
 export default function CarsGrid() {
   const { cars, isLoading } = useGetCars();
 
-  const { currentSort, filterKey } = useContext(GlobalContext);
+  const { currentSort, filterKey, showFullScreenFilter } =
+    useContext(GlobalContext);
 
   const sortCars = () => {
     if (currentSort === "ascending") {
@@ -53,7 +54,11 @@ export default function CarsGrid() {
   if (isLoading) return <Loader />;
 
   return (
-    <section className="main-grid">
+    <section
+      className={`main-grid ${
+        showFullScreenFilter ? "show-full-screen-filter" : ""
+      }`}
+    >
       {filteredCars.map((car: ICars) => {
         return (
           <GridItem

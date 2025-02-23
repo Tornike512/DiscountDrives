@@ -49,6 +49,8 @@ export interface IGlobalContext {
       lastCar: number;
     }>
   >;
+  showFullScreenFilter: boolean;
+  setShowFullScreenFilter: Dispatch<SetStateAction<boolean>>;
 }
 
 export const GlobalContext = createContext<IGlobalContext>({
@@ -89,4 +91,6 @@ export const GlobalContext = createContext<IGlobalContext>({
   setShowSidebar: () => {},
   changePage: { firstCar: 0, lastCar: 20 },
   setChangePage: () => {},
+  showFullScreenFilter: false,
+  setShowFullScreenFilter: () => {},
 });

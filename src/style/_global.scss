@@ -39,6 +39,10 @@ main {
   row-gap: 20px;
   column-gap: 20px;
 
+  &.show-full-screen-filter {
+    display: none;
+  }
+
   @include xl {
     grid-template-columns: 1fr 1fr 1fr;
   }

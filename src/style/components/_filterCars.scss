@@ -11,7 +11,16 @@
   border-radius: 6px;
   box-shadow: -1px 5px 4px #ececec;
 
+  &.show-full-screen {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    max-width: -webkit-fill-available;
+  }
+
   .filter-form {
+    width: 100%;
+
     .manufacturer-select,
     .model-select,
     .price-select {

@@ -6,11 +6,15 @@ import { GlobalContext } from "@/context";
 import "@/style/components/_sort.scss";
 
 export default function Sort() {
-  const { setCurrentSort } = useContext(GlobalContext);
+  const { setCurrentSort, setShowFullScreenFilter } = useContext(GlobalContext);
 
   const handleOptions = (e: ChangeEvent<HTMLSelectElement>) => {
     const optionValue = e.target.value;
     setCurrentSort(optionValue);
+  };
+
+  const handleFilterButton = () => {
+    setShowFullScreenFilter(true);
   };
 
   return (
@@ -24,7 +28,9 @@ export default function Sort() {
         <option value="low-to-high">Lowest to Highest</option>
         <option value="high-to-low">Highest to Lowest</option>
       </select>
-      <button className="responsive-filter-button">Filter</button>
+      <button onClick={handleFilterButton} className="responsive-filter-button">
+        Filter
+      </button>
     </div>
   );
 }
