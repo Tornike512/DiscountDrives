@@ -1,6 +1,7 @@
 "use client";
 
 import { GlobalContext } from "@/context";
+import { useRouter } from "next/navigation";
 import { useContext } from "react";
 import Sidebar from "./Sidebar";
 
@@ -16,12 +17,15 @@ import "@/style/components/_header.scss";
 export default function Header() {
   const { setShowSidebar } = useContext(GlobalContext);
 
+  const router = useRouter();
+
   const handleShowSidebar = () => {
     setShowSidebar(true);
   };
 
   const handleAboutUsClick = () => {
     setShowSidebar(false);
+    router.push("/about-us");
   };
 
   const handleMainIcon = () => {
@@ -31,7 +35,7 @@ export default function Header() {
   return (
     <>
       <header className="header">
-        <Link onClick={handleMainIcon} href="/home-page">
+        <Link onClick={handleMainIcon} href="/">
           <Image
             className="logo"
             src={Logo}
