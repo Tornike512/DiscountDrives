@@ -22,7 +22,9 @@ export default function Sidebar() {
     setShowSidebar(false);
   };
 
-  console.log(showSidebar);
+  const handleAboutUsSidebar = () => {
+    setShowSidebar(false);
+  };
 
   return (
     <>
@@ -36,7 +38,11 @@ export default function Sidebar() {
             <Image src={telegramIcon} alt="Telegram Icon"></Image>
             Join Telegram
           </Link>
-          <Link href="/about-us" className="about-us">
+          <Link
+            onClick={handleAboutUsSidebar}
+            href="/about-us"
+            className="about-us"
+          >
             <span className="text-container">
               <span className="text">About us</span>
             </span>

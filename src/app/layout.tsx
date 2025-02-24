@@ -3,13 +3,14 @@ import { GlobalProvider } from "@/context";
 
 import "@/style/_global.scss";
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
+
 export const metadata = {
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
-  },
   icons: {
     icon: "/favicon.ico",
   },
