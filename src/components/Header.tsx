@@ -1,6 +1,5 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import { GlobalContext } from "@/context";
 import { useContext } from "react";
 import Sidebar from "./Sidebar";
@@ -15,7 +14,7 @@ import telegramIcon from "../../public/Images/telegram-icon.png";
 import "@/style/components/_header.scss";
 
 export default function Header() {
-  const { setShowSidebar, showSidebar } = useContext(GlobalContext);
+  const { setShowSidebar } = useContext(GlobalContext);
 
   const handleShowSidebar = () => {
     setShowSidebar(true);
