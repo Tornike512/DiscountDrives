@@ -28,7 +28,7 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
     manufacturer: "",
     model: "",
     startPrice: 0,
-    endPrice: 10000,
+    endPrice: 1000000,
     startYear: 0,
     endYear: new Date().getFullYear(),
   });

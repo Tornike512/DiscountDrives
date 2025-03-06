@@ -51,6 +51,8 @@ export default function CarsGrid() {
     );
   });
 
+  console.log(filterKey);
+
   if (isLoading) return <Loader />;
 
   return (
