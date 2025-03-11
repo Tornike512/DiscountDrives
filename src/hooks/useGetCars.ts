@@ -16,17 +16,13 @@ export interface ICars {
 export const useGetCars = () => {
   const [cars, setCars] = useState<ICars[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
-  const { changePage, setChangePage } = useContext(GlobalContext);
+  const { changePage, setChangePage, filterKey } = useContext(GlobalContext);
 
   const getCars = async (signal?: AbortSignal) => {
     try {
       const response = await axios.get(
-        "https://discountdrives-backend-1.onrender.com",
+        `https://discountdrives-backend.onrender.com/filter-cars?manufacturer=${filterKey.manufacturer}&model=${filterKey.model}&min_year=${filterKey.startYear}&max_year=${filterKey.endYear}&min_price=${filterKey.startPrice}&max_price=${filterKey.endPrice}`,
         {
-          params: {
-            firstCar: changePage.firstCar,
-            lastCar: changePage.lastCar,
-          },
           signal,
         }
       );
@@ -56,7 +52,7 @@ export const useGetCars = () => {
       clearInterval(intervalId);
       controller.abort();
     };
-  }, [changePage]);
+  }, [changePage, filterKey]);
 
   return { cars, isLoading };
 };

@@ -10,6 +10,7 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
   const [showFilterModal, setShowFilterModal] = useState<boolean>(false);
   const [year, setYear] = useState<string>("Year");
   const [price, setPrice] = useState<string>("Price");
+
   const [fromInput, setFromInput] = useState<string>("");
   const [toInput, setToInput] = useState<string>("");
   const [filterByYear, setFilterByYear] = useState<(string | number)[]>([
@@ -23,7 +24,8 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
     new Date().getFullYear()
   );
   const [priceFromInput, setPriceFromInput] = useState<number | string>(0);
-  const [priceToInput, setPriceToInput] = useState<number | string>(10000);
+  const [priceToInput, setPriceToInput] = useState<number | string>(1000000);
+
   const [filterKey, setFilterKey] = useState<IFilter>({
     manufacturer: "",
     model: "",
@@ -32,11 +34,14 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
     startYear: 0,
     endYear: new Date().getFullYear(),
   });
+
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
+
   const [changePage, setChangePage] = useState<{
     firstCar: number;
     lastCar: number;
   }>({ firstCar: 0, lastCar: 20 });
+
   const [showFullScreenFilter, setShowFullScreenFilter] =
     useState<boolean>(false);
 
