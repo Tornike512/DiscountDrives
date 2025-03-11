@@ -29,7 +29,6 @@ export default function FilterCars() {
     setFilterKey,
     showFullScreenFilter,
     setShowFullScreenFilter,
-    filterKey,
   } = useContext(GlobalContext);
 
   const [selectedManufacturer, setSelectedManufacturer] = useState("");
