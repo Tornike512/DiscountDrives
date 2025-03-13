@@ -37,10 +37,7 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
 
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
 
-  const [changePage, setChangePage] = useState<{
-    firstCar: number;
-    lastCar: number;
-  }>({ firstCar: 0, lastCar: 20 });
+  const [changePage, setChangePage] = useState(20);
 
   const [showFullScreenFilter, setShowFullScreenFilter] =
     useState<boolean>(false);

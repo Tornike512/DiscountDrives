@@ -73,10 +73,7 @@ export default function Pagination() {
       setCurrentPage(nextPage);
     }, 1000);
 
-    setChangePage({
-      firstCar: changePage.firstCar + 20,
-      lastCar: 20,
-    });
+    changePage <= pagesLengthCount && setChangePage((currentPage + 1) * 20);
   };
 
   const handlePreviousPage = () => {
@@ -89,16 +86,12 @@ export default function Pagination() {
       setCurrentPage(currentPage - 1);
     }, 1000);
 
-    setChangePage({
-      firstCar: changePage.firstCar - 20,
-      lastCar: 20,
-    });
-    console.log("previous page clicked");
+    changePage > 20 && setChangePage((currentPage - 1) * 20);
   };
 
   const handleCurrentPage = (page: number) => {
     setCurrentPage(page);
-    setChangePage({ firstCar: page * 20 - 20, lastCar: 20 });
+    setChangePage(page * 20);
     window.scrollTo({ behavior: "smooth", top: 0 });
   };
 

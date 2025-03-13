@@ -1,5 +1,5 @@
 export const pagesCount = (length: number) => {
-  const rounded = Math.round(length / 20) + 1;
+  const rounded = Math.floor(length / 20) + 1;
 
   const roundedArray = [];
 

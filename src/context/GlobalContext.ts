@@ -39,16 +39,8 @@ export interface IGlobalContext {
   setFilterKey: Dispatch<SetStateAction<IFilter>>;
   showSidebar: boolean;
   setShowSidebar: Dispatch<SetStateAction<boolean>>;
-  changePage: {
-    firstCar: number;
-    lastCar: number;
-  };
-  setChangePage: Dispatch<
-    SetStateAction<{
-      firstCar: number;
-      lastCar: number;
-    }>
-  >;
+  changePage: number;
+  setChangePage: Dispatch<SetStateAction<number>>;
   showFullScreenFilter: boolean;
   setShowFullScreenFilter: Dispatch<SetStateAction<boolean>>;
 }
@@ -89,7 +81,7 @@ export const GlobalContext = createContext<IGlobalContext>({
   setFilterKey: () => {},
   showSidebar: false,
   setShowSidebar: () => {},
-  changePage: { firstCar: 0, lastCar: 20 },
+  changePage: 20,
   setChangePage: () => {},
   showFullScreenFilter: false,
   setShowFullScreenFilter: () => {},
