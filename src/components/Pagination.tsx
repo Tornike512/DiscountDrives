@@ -73,7 +73,9 @@ export default function Pagination() {
       setCurrentPage(nextPage);
     }, 1000);
 
-    changePage <= pagesLengthCount && setChangePage((currentPage + 1) * 20);
+    if (changePage <= pagesLengthCount) {
+      setChangePage((currentPage + 1) * 20);
+    }
   };
 
   const handlePreviousPage = () => {
@@ -86,7 +88,9 @@ export default function Pagination() {
       setCurrentPage(currentPage - 1);
     }, 1000);
 
-    changePage > 20 && setChangePage((currentPage - 1) * 20);
+    if (changePage > 20) {
+      setChangePage((currentPage - 1) * 20);
+    }
   };
 
   const handleCurrentPage = (page: number) => {
@@ -95,7 +99,7 @@ export default function Pagination() {
     window.scrollTo({ behavior: "smooth", top: 0 });
   };
 
-  if (isLoading) return;
+  if (isLoading) return null;
 
   return (
     <div

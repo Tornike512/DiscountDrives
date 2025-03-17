@@ -9,9 +9,12 @@ export const useGetPagesLength = () => {
 
   const getLength = async (signal?: AbortSignal) => {
     try {
-      const response = await axios.get("http://localhost:5000/page-length", {
-        signal,
-      });
+      const response = await axios.get(
+        "https://bestdeals-backend-2.onrender.com/page-length",
+        {
+          signal,
+        }
+      );
       setPagesLengthCount(response.data);
     } catch (error) {
       console.log("Error Fetching Pages Length", error);
