@@ -21,7 +21,7 @@ export const useGetCars = () => {
   const getCars = async (signal?: AbortSignal) => {
     try {
       const response = await axios.get(
-        `https://bestdeals-backend-2.onrender.com/filter-cars?next_page=${changePage}&manufacturer=${filterKey.manufacturer}&model=${filterKey.model}&min_year=${filterKey.startYear}&max_year=${filterKey.endYear}&min_price=${filterKey.startPrice}&max_price=${filterKey.endPrice}`,
+        `http://localhost:5000/filter-cars?next_page=${changePage}&manufacturer=${filterKey.manufacturer}&model=${filterKey.model}&min_year=${filterKey.startYear}&max_year=${filterKey.endYear}&min_price=${filterKey.startPrice}&max_price=${filterKey.endPrice}`,
         {
           signal,
         }

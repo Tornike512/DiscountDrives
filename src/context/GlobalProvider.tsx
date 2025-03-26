@@ -37,7 +37,7 @@ export const GlobalProvider = ({ children }: PropsWithChildren) => {
 
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
 
-  const [changePage, setChangePage] = useState(20);
+  const [changePage, setChangePage] = useState(0);
 
   const [showFullScreenFilter, setShowFullScreenFilter] =
     useState<boolean>(false);

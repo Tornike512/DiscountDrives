@@ -56,6 +56,8 @@ export default function Pagination() {
   const { changePage, setChangePage, showFullScreenFilter } =
     useContext(GlobalContext);
 
+  console.log(changePage);
+
   const [state, dispatch] = useReducer(changeArrow, initialState);
 
   const { isLoading } = useGetCars();
